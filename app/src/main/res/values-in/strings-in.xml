@@ -1,0 +1,572 @@
+<resources>
+    <string name="app_name">S F A</string>
+    <string name="company">PMA</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_information">information</string>
+    <string name="title_activity_call_plan">CallPlan</string>
+    <string name="title_activity_order">Order</string>
+
+    <string name="action_menu_edit">Edit</string>
+    <string name="action_menu_delete">Delete</string>
+
+    <string-array name="menu">
+        <!--<item>Edit</item>-->
+        <item>Hapus</item>
+    </string-array>
+    <string name="title_activity_add_order">add_order</string>
+
+    <string-array name="arr_uom">
+        <item>CRT</item>
+        <item>PAC</item>
+        <item>PC</item>
+    </string-array>
+
+
+    <string name="your_string">Promo Barang.</string>
+
+
+    <string-array name="type_of_building">
+        <item>Contract</item>
+        <item>Own</item>
+        <item>Rent</item>
+    </string-array>
+
+    <string-array name="company_type">
+        <item>Corp</item>
+        <item>LTD</item>
+    </string-array>
+
+    <string-array name="nav_drawer_items">
+        <item>Attandance</item>
+        <item>Call Plan</item>
+        <item>Product</item>
+        <item>Customer</item>
+        <item>Target</item>
+        <item>Competitor</item>
+        <item>View Order</item>
+        <item>Synchronous</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_att</item>
+        <item>@drawable/ic_call</item>
+        <item>@drawable/ic_product</item>
+        <item>@drawable/ic_customer</item>
+        <item>@drawable/ic_target</item>
+        <item>@drawable/ic_competitor</item>
+        <item>@drawable/ic_report</item>
+        <item>@drawable/ic_sync</item>
+    </array>
+
+
+    <string name="sample_activity_form_is_valid">Form is valid</string>
+
+    <string name="lib_name">Z-Validations</string>
+
+    <string name="zvalidations_not_positive_integer">Field should be positive integer</string>
+    <string name="zvalidations_empty">Field could not be empty</string>
+    <string name="zvalidations_not_in_range">Field should be between %1$d and %2$d</string>
+    <string name="zvalidations_not_email">Value is not valid email address</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- mulai for translate -->
+
+
+    <!-- DRAWER MENU -->
+    <string name="drawer_menu_start">MULAI</string>
+    <string name="drawer_menu_call_plan">KUNJUNGAN</string>
+    <string name="drawer_menu_product">PRODUK</string>
+    <string name="drawer_menu_customer">OUTLET</string>
+    <string name="drawer_menu_inventory">PERSEDIAAN</string>
+    <string name="drawer_menu_target">TARGET</string>
+    <string name="drawer_menu_competitor">KOMPETITOR</string>
+    <string name="drawer_menu_view_order">LIHAT ORDER</string>
+    <string name="drawer_menu_summary">REKAP</string>
+    <string name="drawer_menu_synchronous">SINKRON</string>
+    <string name="drawer_menu_settings">SETELAN</string>
+    <string name="drawer_menu_logout">KELUAR</string>
+    <!-- END OF DRAWER MENU -->
+
+
+    <!-- LOGIN -->
+    <string name="login_hint_user_name">Nama Pengguna</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_invalid">Kesalahan user atau password</string>
+    <string name="login_blank">Silahkan isi user dan password</string>
+    <string name="login_multiple">Login lebih dari satu pengguna tidak di perbolehkan</string>
+    <string name="login_switch_restrict">Ganti user tidak diizinkan</string>
+    <string name="login_device_not_register">Alat ini belum terdaftar</string>
+    <string name="logout_msg_confirm">Anda yakin untuk keluar?</string>
+    <!-- END OF LOGIN -->
+
+    <!-- CONNECTION -->
+    <string name="connection_error">Tidak bisa konek ke server</string>
+    <!-- END OF CONNECTION -->
+
+    <!-- START -->
+
+    <string name="start_label_work_start">Waktu Mulai</string>
+    <string name="start_label_work_end">Waktu Selesai</string>
+    <string name="start_button_work_start">Mulai</string>
+    <string name="start_button_work_end">Selesai</string>
+    <string name="start_input_box_title_odometer">Masukan Odometer</string>
+    <string name="start_input_box_text_start_odometer">Masukan odometer awal</string>
+    <string name="start_input_box_text_end_odometer">Masukan odometer akhir</string>
+    <string name="start_prompt_button_odometer_save">Simpan</string>
+    <string name="start_prompt_button_odometer_cancel">Batal</string>
+    <string name="start_prompt_title_work_end_confirm">Konfirmasi</string>
+    <string name="start_prompt_text_work_end_confirm">Apakah ingin selesai sekarang?</string>
+    <string name="start_prompt_button_work_end_yes">YA</string>
+    <string name="start_prompt_button_work_end_cancel">TIDAK</string>
+    <string name="start_work_end_error_customer_finish_visit">Kunjungan telah selesai. Tidak dapat melakukan kunjungan kembali</string>
+    <string name="start_work_end_error_customer_novisit_nocall">Mohon kunjungi semua outlet Call Plan</string>
+    <string name="start_work_end_error_customer_still_visit">Masih ada outlet yang masih kunjungan</string>
+    <string name="start_work_end_error_customer_still_pause">Masih ada outlet yang masih dilewati</string>
+    <!-- END OF CONNECTION -->
+
+    <!-- LOGOUT -->
+    <string name="logout_prompt_title">Konfirmasi</string>
+    <string name="logout_prompt_text">Anda yakin logout?</string>
+    <string name="logout_prompt_button_yes">YA</string>
+    <string name="logout_prompt_button_cancel">TIDAK</string>
+    <!-- END OF LOGOUT -->
+
+    <!-- AUTO UPDATE -->
+    <string name="app_update_prompt_text">Ada update aplikasi baru. Upgrade sekarang?</string>
+    <string name="app_update_prompt_button_remind_later">Ingatkan lagi nanti</string>
+    <string name="app_update_prompt_button_ok">OK</string>
+    <!-- AUTO UPDATE -->
+
+    <!-- EXTRACT DATA DOCKING -->
+    <string name="extract_docking_prompt_title">Konfirmasi</string>
+    <string name="extract_docking_prompt_text">Ekstrak data untuk docking ?</string>
+    <string name="extract_docking_prompt_button_yes">YA</string>
+    <string name="extract_docking_prompt_button_cancel">TIDAK</string>
+    <!-- END OF EXTRACT DATA DOCKING -->
+
+    <!-- SYNC MASTER DATA -->
+    <string name="sync_master_docking_prompt_title">PERINGATAN</string>
+    <string name="sync_master_prompt_text">Proses ini membutuhkan koneksi yang kuat. Lanjutkan ?</string>
+    <string name="sync_master_prompt_button_yes">YA</string>
+    <string name="sync_master_prompt_button_cancel">TIDAK</string>
+
+    <string name="sync_master_release">TERJADWAL</string>
+    <string name="sync_master_active">AKTIF</string>
+    <string name="sync_master_retry">MENCOBA</string>
+    <string name="sync_master_done">SELESAI</string>
+    <string name="sync_master_cancel">BATAL</string>
+
+    <string name="sync_master_extract_data">Ekstrak Data?</string>
+    <string name="sync_master_extract_data_restrict">Tidak dapa ekstrak data</string>
+    <!-- END OF SYNC MASTER DATA -->
+
+    <!-- VERSION -->
+    <string name="version_docking_prompt_title">Versi</string>
+    <string name="version_prompt_text">Version %version</string>
+    <string name="version_prompt_button_ok">OK</string>
+    <!-- END OF VERSION -->
+
+
+    <!-- CALL PLAN -->
+
+    <string name="call_plan_pre_call_btn_text_taking_order">Taking Order</string>
+    <string name="call_plan_pre_call_btn_text_return_order">Retur Order</string>
+    <string name="call_plan_pre_call_btn_text_skip_call">Lewati Kunjungan</string>
+    <string name="call_plan_pre_call_btn_text_competitor">Kompetitor</string>
+    <string name="call_plan_pre_call_btn_text_end_call">Selesai Kunjungan</string>
+    <string name="call_plan_pre_call_text_view_sales_notes">*Sales tidak dapat menunda kunjungan</string>
+    <string name="call_plan_pre_call_text_view_customer_notes">Catatan outlet</string>
+
+    <string name="call_plan_pre_call_msg_restrict_return">Tidak dapat buat retur</string>
+    <string name="call_plan_pre_call_msg_restrict_skip">Tidak dapat di lewati</string>
+    <string name="call_plan_pre_call_msg_confirm_skip">Yakin untuk skip kunjungan ini</string>
+    <string name="call_plan_pre_call_msg_restrict_blank_reason">Alasan tidak ada order kosong. Silahkan klik save dulu</string>
+    <string name="call_plan_pre_call_msg_restrict_no_picture">Transaksi harus ada gambar.</string>
+    <string name="call_plan_pre_title_signature">Tanda tangan</string>
+
+
+    <string name="checkbox_suggestion_route">Rute Saran</string>
+    <string name="textview_call_visited_status_list_view">Telah dikunjungi</string>
+    <string name="textview_call_no_call_status_list_view">Tidak Dikunjungi</string>
+    <string name="textview_call_visit_status_list_view">Sedang Dikunjungi</string>
+    <string name="textview_call_unvisit_status_list_view">Belum dikunjungi</string>
+    <string name="textview_call_pause_status_list_view">Dilewati</string>
+
+    <string name="title_details_dialog">Detil</string>
+    <string name="visit_information_option_dialog_details">Informasi Kunjungan</string>
+    <string name="view_customer_option_dialog_details">Lihat Customer</string>
+    <string name="change_picture_option_dialog_details">Ganti Gambar</string>
+
+    <string name="title_add_unplan_customer">Tambah outlet diluar jadwal</string>
+
+    <string name="call_plan_button_text_change_order">Rubah Order</string>
+    <string name="call_plan_button_text_change_return">Rubah Retur</string>
+    <string name="call_plan_button_text_create_order">Buat Order Baru</string>
+    <string name="call_plan_title_view_order">Lihat Order</string>
+    <string name="call_plan_title_view_return">Lihat Retur</string>
+
+    <string name="call_plan_restict_add_unplan">Penambahan outlet diluar jadwal tidak bisa</string>
+    <string name="call_plan_restict_invalid_location">Lokasi outlet salah.</string>
+    <string name="call_plan_restict_recall">Tidak dapat mengunjungi ulang outlet</string>
+    <string name="call_plan_no_work_start">Silahkan isi dulu waktu mulai. </string>
+
+    <string name="call_plan_msg_still_visit">Sedang dikunjungi.</string>
+
+    <string name="call_plan_msg_confirm_call_back">Outlet ini sudah dikunjungi. Kunjungan lagi ?</string>
+
+
+
+
+    <!-- END OF CALL PLAN -->
+
+    <!-- ORDER -->
+    <string name="transaction_order_text_price">HARGA</string>
+    <string name="transaction_order_text_reason_return">ALASAN</string>
+    <string name="transaction_order_text_stock">STOK</string>
+    <string name="transaction_order_text_suggestion_order">ORDER SARAN</string>
+    <string name="transaction_order_text_order_qty">ORDER</string>
+    <string name="transaction_order_text_return_qty">RETUR</string>
+    <string name="transaction_order_text_last_call">TERAKHIR ORD</string>
+
+    <string name="transaction_order_fail">Product tidak dapat diorder.</string>
+    <string name="transaction_order_input_text_dialog">Silahkan masukan catatan order.</string>
+    <string name="transaction_order_confirm_containing_item_save">Masih terdapat item di list. Mau save ?</string>
+    <string name="transaction_order_msg_restrict_delete_free_good">Bonus tidak dapat dihapus.</string>
+    <string name="transaction_order_msg_restrict_edit_free_good">Bonus tidak dapat di rubah.</string>
+    <string name="transaction_order_msg_save_success">Transaksi order berhasil.</string>
+    <string name="transaction_order_msg_save_fail">Transaksi order gagal.</string>
+    <string name="transaction_order_msg_update_success">Transaksi update berhasil.</string>
+    <string name="transaction_order_msg_update_fail">Transaksi update gagal.</string>
+    <string name="transaction_order_msg_fail">Transaksi gagal.</string>
+    <string name="transaction_order_msg_reason_blank">Alasan tidak beli boleh kosong.</string>
+    <string name="transaction_order_msg_no_items">Tidak ada item.</string>
+    <string name="transaction_order_msg_confirm_clear_items">Hapus list item?</string>
+    <string name="transaction_order_title_reason_no_order">Alasan tidak ada order</string>
+    <string name="transaction_order_title_reason_no_barcode">Alasan tidak scan</string>
+    <string name="transaction_order_title_reason_no_call">Alasan tidak kunjungan</string>
+    <string name="transaction_order_title_reason_no_route">Alasan diluar route</string>
+    <string name="transaction_order_msg_confirm_delete_all_items">Hapus semua item ?</string>
+    <string name="transaction_order_msg_transaction_deleted">Transaksi telah di hapus</string>
+    <string name="transaction_order_text_view_delivery_date">Tgl. Kirim</string>
+    <string name="transaction_order_text_view_term_of_payment">Pembayaran</string>
+    <string name="transaction_order_checkbox_text_delivered">Terkirim</string>
+
+    <string name="transaction_order_title_choose_product">Pilih Produk</string>
+
+    <string name="transaction_order_plus_notes">Catatan</string>
+    <string name="transaction_order_plus_pricing">Harga dan Diskon</string>
+    <string name="transaction_order_plus_promotion">Promosi</string>
+    <string name="transaction_order_plus_take_photo">Ambil photo</string>
+
+    <string name="transaction_order_text_view_pricing">Lihat Harga</string>
+    <string name="transaction_order_text_pricing">Harga</string>
+    <string name="transaction_order_text_regular_discount">Regular Discount</string>
+    <string name="transaction_order_text_extra_discount">Extra Discount</string>
+    <string name="transaction_order_text_extra_discount_ipt">Extra Discount (IPT)</string>
+    <string name="transaction_order_text_special_discount">Special Discount</string>
+    <string name="transaction_order_text_special_discount_ipt">Special Discount (IPT)</string>
+
+
+
+    <!-- END OF ORDER -->
+
+    <!-- MASTER PRODUCT -->
+
+    <string name="product_hint_search_text">Pencarian</string>
+    <string name="product_sort_by_name">Urut berdasarkan nama</string>
+    <string name="product_sort_by_alias">Urut berdasarkan alias</string>
+    <string name="product_sort_by_code">Urut berdasarkan kode</string>
+
+    <string name="product_title_view">Lihat Produk</string>
+    <string name="product_title_create_product">Buat Produk Baru</string>
+
+    <string name="product_general_tab">Umum</string>
+    <string name="product_label_product_number">Kode Produk</string>
+    <string name="product_label_product_name">Nama Produk</string>
+    <string name="product_label_product_alias">Alias Produk</string>
+    <string name="product_label_product_status">Status</string>
+
+    <string name="product_uom_tab">UOM</string>
+    <string name="product_label_base_uom">Base UoM</string>
+    <string name="product_label_small_uom">UoM Kecil</string>
+    <string name="product_label_medium_uom">UoM Tengah</string>
+    <string name="product_label_large_uom">UoM Besar</string>
+    <string name="product_label_conversion_large_to_small">Konversi besar ke kecil</string>
+    <string name="product_label_conversion_medium_to_small">Konversi tengah ke kecil</string>
+
+    <string name="product_others_tab">LAIN-LAIN</string>
+    <string name="product_label_division">Divisi</string>
+    <string name="product_label_brands">Brand</string>
+
+    <!-- END MASTER PRODUCT -->
+
+
+
+    <!-- MASTER CUSTOMER -->
+    <string name="customer_hint_search_text">Search</string>
+    <string name="customer_sort_by_name">Sort by name</string>
+    <string name="customer_sort_by_code">product_sort_by_code</string>
+
+    <string name="customer_title_view">Outlet Detil</string>
+    <string name="customer_title_create_customer">Buat Outlet Baru</string>
+
+    <string name="customer_general_tab">Umum</string>
+    <string name="customer_label_customer_number">Kode Outlet</string>
+    <string name="customer_label_customer_name">Nama Outlet</string>
+    <string name="customer_label_customer_alias">Alias Outlet</string>
+    <string name="customer_label_top">Pembayaran (hari)</string>
+    <string name="customer_label_delivery_day">Hari Kunjungan</string>
+    <string name="customer_label_phone_number">Telepon</string>
+    <string name="customer_label_contact_person">Kontak</string>
+    <string name="customer_label_notes">Catatan</string>
+    <string name="customer_label_status">Status</string>
+    <string name="customer_label_choose_delivery_day">-- Pilih Hari --</string>
+    <string name="customer_label_choose_delivery_day_mon">Senin</string>
+    <string name="customer_label_choose_delivery_day_tue">Selasa</string>
+    <string name="customer_label_choose_delivery_day_wed">Rabu</string>
+    <string name="customer_label_choose_delivery_day_thu">Kamis</string>
+    <string name="customer_label_choose_delivery_day_fri">Jumat</string>
+    <string name="customer_label_choose_delivery_day_sat">Sabtu</string>
+    <string name="customer_label_choose_delivery_day_sun">Minggu</string>
+    <string name="customer_address_tab">Alamat</string>
+    <string name="customer_label_address">Alamat</string>
+    <string name="customer_label_city">Kota</string>
+    <string name="customer_label_latitude">Garis Lintang</string>
+    <string name="customer_label_longitude">Garis Bujur</string>
+
+    <string name="customer_others_tab">Lain-lain</string>
+    <string name="customer_label_channel">Channel</string>
+    <string name="customer_label_region">Region</string>
+    <string name="customer_label_zone">Zone</string>
+    <string name="customer_label_classifcation">Classification</string>
+    <string name="customer_label_district">District</string>
+    <string name="customer_label_territory">Territory</string>
+
+    <string name="customer_photo_tab">Photo</string>
+    <string name="customer_photo_tap_desc">Sentuh kotak dibawah ini untuk mengambil gambar</string>
+
+    <string name="customer_err_message_blank_customer_name">Nama outlet harus diisi\n</string>
+    <string name="customer_err_message_blank_customer_alias">Alias outlet harus diisi\n</string>
+    <string name="customer_err_message_blank_phone">Telepon harus diisi\n</string>
+    <string name="customer_err_message_blank_contact_person">Kontak harus diisi\n</string>
+    <string name="customer_err_message_blank_address">Alamat harus diisi\n</string>
+    <string name="customer_err_message_blank_city">Kota harus diisi\n</string>
+    <string name="customer_err_message_blank_region">Region harus diisi\n</string>
+    <string name="customer_err_message_blank_zone">Zone harus diisi\n</string>
+    <string name="customer_err_message_blank_classification">Classification harus diisi\n</string>
+    <string name="customer_err_message_blank_district">District harus diisi\n</string>
+    <string name="customer_err_message_blank_territory">Territory harus diisi\n</string>
+
+
+    <!-- END MASTER CUSTOMER -->
+
+    <string name="common_msg_invalid_numeric">Kesalahan Numerik</string>
+    <string name="common_msg_invalid">Kesalah</string>
+    <string name="common_msg_cancel">Batal</string>
+    <string name="common_msg_ok">OK</string>
+    <string name="common_msg_yes">YA</string>
+    <string name="common_msg_no">TIDAK</string>
+    <string name="common_msg_confirm">Konfirmasi</string>
+    <string name="common_msg_save">Simpan</string>
+    <string name="common_msg_delete">Hapus</string>
+    <string name="common_msg_deleted">Terhapus</string>
+    <string name="common_msg_no_data_found">Tidak ada data</string>
+    <string name="common_msg_search_hint">Pencarian...</string>
+    <string name="common_msg_warning">Peringatan</string>
+    <string name="common_msg_error">Error</string>
+    <string name="common_msg_information">Informasi</string>
+
+
+    <string name="common_text_kilometers">Kilometer</string>
+    <string name="common_text_meters">Meter</string>
+    <string name="common_text_order_number">Nomor Order</string>
+
+    <string name="common_text_start_call">Mulai Kunjungan</string>
+    <string name="common_text_end_call">Selesai Kunjungan</string>
+    <string name="common_text_pause_duration">Durasi Jeda</string>
+    <string name="common_text_last_pause">Jeda Terakhir</string>
+    <string name="common_text_visit_information">Informasi Kunjungan</string>
+    <string name="common_text_view_customer">Lihat Outlet</string>
+    <string name="common_text_change_picture">Ganti Photo</string>
+    <string name="common_text_details">Detil</string>
+    <string name="common_text_visited">Telah dikunjungi</string>
+    <string name="common_text_unvisit">Belum dikunjungi</string>
+    <string name="common_text_last_resume">Terakhir lanjut</string>
+    <string name="common_text_taking_order">Taking Order</string>
+    <string name="common_text_sales_order">Sales Order</string>
+    <string name="common_text_return_order">Return Order</string>
+    <string name="common_text_order">ORDER</string>
+    <string name="common_text_return">RETURN</string>
+    <string name="common_text_select_hint">PILIH</string>
+    <string name="common_text_item_already_add">Sudah ada.</string>
+
+
+    <!-- MASTER INVENTORY -->
+    <string name="inventory_reference">Referensi</string>
+    <string name="inventory_loading">Loading</string>
+    <string name="inventory_unloading">Unloading</string>
+    <string name="inventory_confirm_containing_item_save">Masih terdapat item di list. Mau save ?</string>
+    <string name="inventory_msg_save_success">Transaksi tersimpan.</string>
+    <string name="inventory_msg_save_fail">Transaksi gagal disimpan.</string>
+    <string name="inventory_msg_no_items">Tidak ada item.</string>
+    <string name="inventory_msg_confirm_clear_items">Hapus semua item?</string>
+    <string name="inventory_text_qty">QTY</string>
+
+    <string name="inventory_sort_by_name">Urutkan berdasarkan nama</string>
+    <string name="inventory_sort_by_alias">Urutkan berdasarkan alias</string>
+    <string name="inventory_sort_by_code">Urutkan berdasarkan code</string>
+    <string name="inventory_sort_by_smallest">Urutkan berdasarkan qty terkecil</string>
+    <string name="inventory_sort_by_largest">Urutkan berdasarkan qty terbesar</string>
+
+    <!-- END OF MASTER INVENTORY -->
+
+    <!-- TARGET -->
+    <string name="target_text_summary_product">Rekap Target Per Produk</string>
+    <string name="target_text_summary_by_product_qty">Target Per Produk (Qty)</string>
+    <string name="target_text_summary_by_product_value">Target Per Produk (Value)</string>
+    <string name="target_text_summary_by_call_ec_ipt">Target Call/Ef.Call/IPT</string>
+
+    <string name="target_text_total_target_product_by_qty">TOTAL TARGET PRODUK PER QTY</string>
+    <string name="target_text_total_target_product_by_value">TOTAL TARGET PRODUK PER VALUE</string>
+    <string name="target_text">Target</string>
+    <string name="target_transactions_text">Transaksi</string>
+    <string name="target_achievement_text">Pencapaian</string>
+    <string name="target_balance_text">Sisa</string>
+
+    <string name="target_call_text">TARGET CALL</string>
+    <string name="target_effective_call_text">TARGET EFFECTIVE CALL</string>
+    <string name="target_effective_ipt">TARGET IPT</string>
+
+    <string name="target_achieve">Achieve</string>
+    <string name="target_under">Under</string>
+    <string name="target_over">Over</string>
+
+    <!-- END OF TARGET -->
+
+
+    <!-- SUMMARY -->
+    <string name="summary_by_product_qty_text">Rekap Per Produk (Qty)</string>
+    <string name="summary_by_product_value_text">Rekap Per Produk (Value)</string>
+    <string name="summary_by_customer_qty_text">Rekap Per Outlet (Qty)</string>
+    <string name="summary_by_customer_value_text">Rekap Per Outlet (Value)</string>
+    <string name="summary_total">Total</string>
+
+    <string name="summary_total_call_plan">Total Call Plan</string>
+    <string name="summary_total_call">Total Call</string>
+    <string name="summary_total_effective_call">Total Effective Call</string>
+    <string name="summary_total_un_call">Total Uncall</string>
+    <string name="summary_total_unplan">Total Unplan</string>
+    <string name="summary_total_call_unplan">Total Call (Unplan)</string>
+    <string name="summary_total_unplan_effective_call">Total Unplan Effective Call</string>
+    <string name="summary_total_product">Total Product</string>
+    <string name="summary_total_qty">Total Qty</string>
+    <string name="summary_total_value">Total Value</string>
+    <!-- END OF SUMMARY -->
+
+
+    <!-- COMPETITOR -->
+    <string name="competitor_text">Kompetitor</string>
+    <string name="competitor_text_activity">Aktivitas</string>
+    <string name="competitor_text_product">Produk</string>
+    <string name="competitor_text_cost">Biaya</string>
+    <string name="competitor_text_times">Waktu</string>
+    <string name="competitor_text_notes">Catatan</string>
+    <string name="competitor_err_message_blank_competitor">Kompetitor harus diisi\n</string>
+    <string name="competitor_err_message_blank_activity">Aktivitas harus diisi\n</string>
+    <string name="competitor_err_message_blank_product">Produk harus diisi\n</string>
+    <string name="competitor_err_message_blank_cost">Cost harus diisi\n</string>
+    <string name="competitor_err_message_blank_times">Biaya harus diisi\n</string>
+    <string name="competitor_err_message_blank_notes">Catatan harus diisi\n</string>
+    <string name="competitor_save_ok">Kompetitor telah tersimpan</string>
+    <string name="competitor_save_fail">Kompetitor gagal disimpan</string>
+    <!-- END OF COMPETITOR -->
+
+    <!--SYNC-->
+    <string name="sync_docking">Sync / Docking</string>
+    <string name="docking">Docking</string>
+    <string name="sync">Sync</string>
+
+    <string name="docking_requirement_1">(ERRDOC001) Anda harus Start work terlebih dahulu</string>
+    <string name="docking_requirement_2">(ERRDOC002) Lakukan docking setelah berhenti bekerja / End Work</string>
+    <string name="docking_requirement_3">(ERRDOC003) Anda harus End work terlebih dahulu, lalu lakukan docking</string>
+
+
+    <!--END OF SYNC-->
+
+
+    <string name="app_exit_confim">Anda yakin keluar dari aplikasi ?</string>
+    <string name="app_load_data_confim">Tidak ada data. Apakah anda akan download data sekarang ?</string>
+
+
+
+
+
+
+
+
+
+</resources>

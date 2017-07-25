@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<!--
+    <PreferenceCategory
+        android:summary="Related company for this salesman"
+        android:title="Company information" >
+        <EditTextPreference
+            android:key="company"
+            android:summary="Name of Company"
+            android:enabled="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Username Information"
+        android:title="User information" >
+        <EditTextPreference
+            android:key="user_name"
+            android:summary="User Name"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="last_login"
+            android:summary="Login time"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="last_logout"
+            android:summary="Last Logout"
+            android:enabled="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Salesman information"
+        android:title="Describe all information of this salesman" >
+
+        <EditTextPreference
+            android:key="salesman_number"
+            android:summary="Salesman Code"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="salesman_name"
+            android:summary="Name of Salesman"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="salesman_type"
+            android:summary="Type of Ssalesman"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="current_date"
+            android:summary="Active date"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="work_start"
+            android:summary="Start of work"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="work_end"
+            android:summary="End of work"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="start_odometer"
+            android:summary="Start of odometer"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="end_odometer"
+            android:summary="End of odometer"
+            android:enabled="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Customer Information"
+        android:summary="Customer information of this salesman">
+
+        <EditTextPreference
+            android:key="current_customer_visit"
+            android:summary="Current customer visiting"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="current_customer_start_visit"
+            android:summary="Visit time"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="current_customer_order_id"
+            android:summary="Order Number"
+            android:enabled="false" />
+
+        <EditTextPreference
+            android:key="current_customer_return_id"
+            android:summary="Return Number"
+            android:enabled="false" />
+
+    </PreferenceCategory>
+-->
+    <PreferenceCategory
+        android:summary="Details of privacy allow or disallow action"
+        android:key="settings"
+        android:title="Privacy Settings" >
+
+        <!--
+        <CheckBoxPreference
+            android:key="allow_capture_photo"
+            android:summary="Salesman required to capture photo of outlet when completing an order"
+            android:enabled="false"
+            android:title="Capture Outlet Photo" />
+
+        <CheckBoxPreference
+            android:key="allow_signature"
+            android:summary="Salesman required to capture signature of outlet owner when completing an order"
+            android:enabled="false"
+            android:title="Capture Outlet Owner Signature" />
+
+        <EditTextPreference
+            android:key="allow_signature"
+            android:enabled="false"
+            android:summary="Interval in Minutes to submit salesman GPS coordinat to server" />
+
+        <CheckBoxPreference
+            android:key="allow_unplan_route"
+            android:summary="Allow salesman to take order not in scheduled outlet"
+            android:enabled="false"
+            android:title="Allow Unplan Route" />
+
+        <EditTextPreference
+            android:key="tax_percent"
+            android:enabled="false"
+            android:summary="Percentage VAT of total sales Info" />
+
+        <CheckBoxPreference
+            android:key="allow_free_good"
+            android:enabled="false"
+            android:summary="Allow Free good calculate"
+            android:title="Allow Free good calculate" />
+
+        <CheckBoxPreference
+            android:key="allow_delete_free_good"
+            android:enabled="false"
+            android:summary="Allow delete Free good item"
+            android:title="Allow delete Free good item" />
+
+        <CheckBoxPreference
+            android:key="allow_scan_outlet"
+            android:enabled="false"
+            android:summary="Allow Scan Barcode When visiting Outlet"
+            android:title="Allow Barcode Scan" />
+
+        <EditTextPreference
+            android:key="tolerance_radius_outlet_order"
+            android:enabled="false"
+            android:summary="Tolerance radious coordinate when visiting outlet in meters" />
+
+        <CheckBoxPreference
+            android:key="allow_scan_outlet"
+            android:summary="GPS Check of Outlet Location"
+            android:enabled="false"
+            android:title="GPS of outlet will be checked before taking order" />
+
+        <CheckBoxPreference
+            android:key="allow_scan_outlet_if_zero"
+            android:summary="GPS Check of Outlet Location"
+            android:enabled="false"
+            android:title="Allow Taking Order if no GPS signal in outlet" />
+
+        <ListPreference
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:key="listpref"
+            android:summary="List preference example"
+            android:title="List preference" />-->
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme.
+    @android:style/Theme.DeviceDefault.Light.NoActionBar
+    Theme.AppCompat.Light.NoActionBar
+    -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#4527A0</item>
+        <item name="colorPrimaryDark">#311B92</item>
+        <item name="colorAccent">#4527A0</item>
+        <item name="android:colorActivatedHighlight">#FFFFFF</item>
+        <item name="android:colorFocusedHighlight">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColorSecondary">#311B92</item>
+        <item name="android:colorForeground">#aeaeae</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <item name="android:tabWidgetStyle">@android:color/primary_text_dark</item>
+
+
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="android:statusBarColor">#311B92</item>-->
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+
+        <!-- <item name="android:alertDialogStyle">@style/ngsalesAlertDialog</item>
+         <item name="android:fitsSystemWindows">true</item>-->
+
+        <!--<item name="android:actionBarStyle">@style/ActionBar.Solid.GreenStyle</item>-->
+        <!--<item name="windowActionBarOverlay">true</item>-->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <!--
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="android:activatedBackgroundIndicator">@drawable/list_view</item>-->
+
+
+    </style>
+
+
+    <drawable name="focused">#ff5500</drawable>
+    <drawable name="selected">#FF00FF</drawable>
+</resources>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+
+    <com.ksni.roots.ngsales.nbtiNumberPicker
+        android:id="@+id/tQty"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#7bff48">
+    </com.ksni.roots.ngsales.nbtiNumberPicker>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:visibility="visible"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/common_msg_ok"
+                android:id="@+id/btnOk"
+                android:layout_weight="0"
+
+                android:visibility="gone"
+                android:background="@drawable/button_bg"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/common_msg_cancel"
+                android:id="@+id/btnCancel"
+                android:visibility="gone"
+
+                android:background="@drawable/button_bg_red"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:visibility="gone"
+                android:layout_column="1" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/transaction_order_text_price"
+            android:id="@+id/textView4"
+            android:gravity="right"
+            android:paddingRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:typeface="sans"
+            android:gravity="right" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_view"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textViewProductName"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|left"
+                        android:text="Product Name"
+                        android:lines="2"
+                        android:maxLines="2"
+                        android:ellipsize="end"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:padding="10dp"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="7"
+                        android:text="@string/transaction_order_text_order_qty"
+                        android:id="@+id/lblOrder"
+                        android:gravity="left"
+                        android:paddingRight="15dp"
+                        android:typeface="sans"
+                        android:textStyle="bold"
+                        android:textColor="#4a9329" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="3"
+                        android:id="@+id/tOrder"
+                        android:gravity="center"
+                        android:text="0" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/arr_uom"
+                        android:id="@+id/tOrderUom" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/linearReason"
+                    android:visibility="gone"
+                    android:padding="10dp"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="7"
+                        android:text="@string/transaction_order_text_reason_return"
+                        android:gravity="left"
+                        android:paddingRight="15dp"
+                        android:typeface="sans"
+                        android:textStyle="bold"
+                        android:textColor="#4a9329" />
+
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tReason" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/linearLastCall"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="7"
+                        android:text="@string/transaction_order_text_last_call"
+                        android:id="@+id/textView8"
+                        android:gravity="left"
+                        android:paddingRight="15dp"
+                        android:typeface="sans"
+                        android:textStyle="bold"
+                        android:textColor="#e1121a" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:ems="3"
+                        android:id="@+id/tLast"
+                        android:gravity="center"
+                        android:text="0" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:entries="@array/arr_uom"
+                        android:id="@+id/tLastUom" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:padding="10dp"
+                    android:id="@+id/linearStock"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="7"
+                        android:text="@string/transaction_order_text_stock"
+                        android:id="@+id/textView7"
+                        android:gravity="left"
+                        android:paddingRight="15dp"
+                        android:typeface="sans"
+                        android:textStyle="bold"
+                        android:textColor="#4a9329" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="3"
+                        android:focusable="true"
+                        android:id="@+id/tStock"
+                        android:gravity="center"
+                        android:text="0" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tStockUom"
+                        android:entries="@array/arr_uom" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/linearSuggestion"
+                    android:padding="10dp"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="7"
+                        android:text="@string/transaction_order_text_suggestion_order"
+                        android:id="@+id/textView7vf"
+                        android:gravity="left"
+                        android:paddingRight="15dp"
+                        android:typeface="sans"
+                        android:textStyle="bold"
+                        android:textColor="#e1121a" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:focusable="false"
+
+                        android:inputType="number"
+                        android:ems="3"
+                        android:id="@+id/tSuggest"
+                        android:gravity="center"
+                        android:text="0" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:focusable="false"
+
+                        android:entries="@array/arr_uom"
+                        android:id="@+id/tSuggestUom" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_view"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center|left"
+                        android:text="Total Price"
+                        android:lines="2"
+                        android:maxLines="2"
+                        android:ellipsize="end"/>
+
+                    <LinearLayout
+                        android:gravity="right"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Rp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:typeface="sans"
+                            android:id="@+id/tHarga"
+                            android:gravity="right" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/buttonBuy"
+                    android:text="OK"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:background="#f44336"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

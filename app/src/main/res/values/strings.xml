@@ -1,0 +1,572 @@
+<resources>
+    <string name="app_name">S F A</string>
+    <string name="company">PMA</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_information">information</string>
+    <string name="title_activity_call_plan">CallPlan</string>
+    <string name="title_activity_order">Order</string>
+
+    <string name="action_menu_edit">Edit</string>
+    <string name="action_menu_delete">Delete</string>
+
+    <string-array name="menu">
+        <!--<item>Edit</item>-->
+        <item>Delete</item>
+    </string-array>
+
+
+    <string-array name="menu_call_plan">
+        <item>Alasan tidak scan barcode</item>
+        <item>Alasan tidak dikunjungi</item>
+    </string-array>
+
+
+    <string name="title_activity_add_order">add_order</string>
+
+    <string-array name="arr_uom">
+        <item>CRT</item>
+        <item>PAC</item>
+        <item>PC</item>
+    </string-array>
+
+
+    <string name="your_string">Promo Barang.</string>
+
+
+    <string-array name="type_of_building">
+        <item>Contract</item>
+        <item>Own</item>
+        <item>Rent</item>
+    </string-array>
+
+    <string-array name="company_type">
+        <item>Corp</item>
+        <item>LTD</item>
+    </string-array>
+
+    <string-array name="nav_drawer_items">
+        <item>Attandance</item>
+        <item>Call Plan</item>
+        <item>Product</item>
+        <item>Customer</item>
+        <item>Target</item>
+        <item>Competitor</item>
+        <item>View Order</item>
+        <item>Synchronous</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_att</item>
+        <item>@drawable/ic_call</item>
+        <item>@drawable/ic_product</item>
+        <item>@drawable/ic_customer</item>
+        <item>@drawable/ic_target</item>
+        <item>@drawable/ic_competitor</item>
+        <item>@drawable/ic_report</item>
+        <item>@drawable/ic_sync</item>
+    </array>
+
+
+    <string name="sample_activity_form_is_valid">Form is valid</string>
+
+    <string name="lib_name">Z-Validations</string>
+
+    <string name="zvalidations_not_positive_integer">Field should be positive integer</string>
+    <string name="zvalidations_empty">Field could not be empty</string>
+    <string name="zvalidations_not_in_range">Field should be between %1$d and %2$d</string>
+    <string name="zvalidations_not_email">Value is not valid email address</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- mulai for translate -->
+
+
+    <!-- DRAWER MENU -->
+    <string name="drawer_menu_start">S T A R T</string>
+    <string name="drawer_menu_call_plan">CALL PLAN</string>
+    <string name="drawer_menu_brand">BRAND</string>
+    <string name="drawer_menu_customer">CUSTOMER</string>
+    <string name="drawer_menu_inventory">INVENTORY</string>
+    <string name="drawer_menu_target">TARGET</string>
+    <string name="drawer_menu_competitor">COMPETITOR</string>
+    <string name="drawer_menu_view_order">VIEW ORDER</string>
+    <string name="drawer_menu_summary">SUMMARY</string>
+    <string name="drawer_menu_synchronous">SYNCHRONOUS</string>
+    <string name="drawer_menu_settings">SETTINGS</string>
+    <string name="drawer_menu_logout">LOGOUT</string>
+    <!-- END OF DRAWER MENU -->
+
+
+    <!-- LOGIN -->
+    <string name="login_hint_user_name">User Name</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_invalid">Invalid user name or password</string>
+    <string name="login_blank">Please fill user name and password</string>
+    <string name="login_multiple">Multiple login not allowed</string>
+    <string name="login_switch_restrict">Switch user not allowed</string>
+    <string name="login_device_not_register">Device not register</string>
+    <string name="logout_msg_confirm">Are you sure to logout?</string>
+    <!-- END OF LOGIN -->
+
+    <!-- CONNECTION -->
+    <string name="connection_error">Unable connect to server</string>
+    <!-- END OF CONNECTION -->
+
+    <!-- START -->
+    <string name="start_label_work_start">Work Start :</string>
+    <string name="start_label_work_end">Work End :</string>
+    <string name="start_button_work_start">Start Work</string>
+    <string name="start_button_work_end">End Work</string>
+    <string name="start_input_box_title_odometer">Input Odometer</string>
+    <string name="start_input_box_text_start_odometer">Please input start of value odometer</string>
+    <string name="start_input_box_text_end_odometer">Please input end of value odometer</string>
+    <string name="start_prompt_button_odometer_save">save</string>
+    <string name="start_prompt_button_odometer_cancel">Cancel</string>
+    <string name="start_prompt_title_work_end_confirm">Confirm</string>
+    <string name="start_prompt_text_work_end_confirm">Work End now?</string>
+    <string name="start_prompt_button_work_end_yes">YES</string>
+    <string name="start_prompt_button_work_end_cancel">NO</string>
+    <string name="start_work_end_error_customer_finish_visit">You have finished all visited. Can\'t visit more</string>
+    <string name="start_work_end_error_customer_novisit_nocall">No visited customer. Please complete</string>
+    <string name="start_work_end_error_customer_still_visit">There is customer with visited status. Please complete</string>
+    <string name="start_work_end_error_customer_still_pause">There is customer with paused status. Please complete</string>
+    <!-- END OF CONNECTION -->
+
+    <!-- LOGOUT -->
+    <string name="logout_prompt_title">Enerlifr Confirm</string>
+    <string name="logout_prompt_text">Are you sure to logout?</string>
+    <string name="logout_prompt_button_yes">YES</string>
+    <string name="logout_prompt_button_cancel">NO</string>
+    <!-- END OF LOGOUT -->
+
+    <!-- AUTO UPDATE -->
+    <string name="app_update_prompt_text">There is newer version of this application available. Upgrade now?</string>
+    <string name="app_update_prompt_button_remind_later">NO</string>
+    <string name="app_update_prompt_button_ok">OK</string>
+    <!-- AUTO UPDATE -->
+
+    <!-- EXTRACT DATA DOCKING -->
+    <string name="extract_docking_prompt_title">Enerlifr Confirm</string>
+    <string name="extract_docking_prompt_text">Extract data will be cancel all pending data. Continue ?</string>
+    <string name="extract_docking_prompt_button_yes">YES</string>
+    <string name="extract_docking_prompt_button_cancel">NO</string>
+    <!-- END OF EXTRACT DATA DOCKING -->
+
+    <!-- SYNC MASTER DATA -->
+    <string name="sync_master_docking_prompt_title">WARNING</string>
+    <string name="sync_master_prompt_text">This operation required strength of connection. Continue ?</string>
+    <string name="sync_master_prompt_button_yes">YES</string>
+    <string name="sync_master_prompt_button_cancel">NO</string>
+
+
+    <string name="sync_master_release">RELEASE</string>
+    <string name="sync_master_active">ACTIVE</string>
+    <string name="sync_master_retry">RETRY</string>
+    <string name="sync_master_done">DONE</string>
+    <string name="sync_master_cancel">CANCEL</string>
+
+    <string name="sync_master_extract_data">Extract Data now?</string>
+    <string name="sync_master_extract_data_restrict">Extract not allowed</string>
+
+    <!-- END OF SYNC MASTER DATA -->
+
+    <!-- VERSION -->
+    <string name="version_docking_prompt_title">VERSION</string>
+    <string name="version_prompt_text">Version %version</string>
+    <string name="version_prompt_button_ok">OK</string>
+    <!-- END OF VERSION -->
+
+
+    <!-- CALL PLAN -->
+    <string name="call_plan_pre_call_btn_text_taking_order">Taking Order</string>
+    <string name="call_plan_pre_call_btn_text_return_order">Return Order</string>
+    <string name="call_plan_pre_call_btn_text_skip_call">Skip Call</string>
+    <string name="call_plan_pre_call_btn_text_competitor">Competitor</string>
+    <string name="call_plan_pre_call_btn_text_end_call">End Call</string>
+    <string name="call_plan_pre_call_text_view_sales_notes">*Sales cannot Skip Call</string>
+    <string name="call_plan_pre_call_text_view_customer_notes">Customer Notes</string>
+
+    <string name="call_plan_pre_call_msg_restrict_return">Return Order not allowed</string>
+    <string name="call_plan_pre_call_msg_restrict_skip">Skip call not allowed</string>
+    <string name="call_plan_pre_call_msg_confirm_skip">Are you sure to skip call ?</string>
+    <string name="call_plan_pre_call_msg_restrict_blank_reason">Blank transaction is required a reason.</string>
+    <string name="call_plan_pre_call_msg_restrict_no_picture">Picture of outlet is required.</string>
+    <string name="call_plan_pre_title_signature">Signature</string>
+
+
+    <string name="checkbox_suggestion_route">Suggestion Route</string>
+    <string name="textview_call_visited_status_list_view">Visited</string>
+    <string name="textview_call_no_call_status_list_view">No Call</string>
+    <string name="textview_call_visit_status_list_view">Visiting</string>
+    <string name="textview_call_unvisit_status_list_view">Unvisit</string>
+    <string name="textview_call_pause_status_list_view">Pause</string>
+
+    <string name="title_details_dialog">Details</string>
+    <string name="visit_information_option_dialog_details">Visit Information</string>
+    <string name="view_customer_option_dialog_details">View Customer</string>
+    <string name="change_picture_option_dialog_details">Change Picture</string>
+
+    <string name="title_add_unplan_customer">Add Unplan Customer</string>
+
+    <string name="call_plan_button_text_change_order">Change Order</string>
+    <string name="call_plan_button_text_change_return">Change Return</string>
+    <string name="call_plan_button_text_create_order">Create New Order</string>
+    <string name="call_plan_title_view_order">View Order</string>
+    <string name="call_plan_title_view_return">View Return</string>
+
+    <string name="call_plan_restict_add_unplan">Add unplan is not allowed</string>
+    <string name="call_plan_restict_invalid_location">Invalid customer location, Please fix location.</string>
+    <string name="call_plan_restict_recall">Re-call customer not allowed</string>
+    <string name="call_plan_no_work_start">Please fill your work start in attendance. </string>
+
+    <string name="call_plan_msg_still_visit">Still visiting.</string>
+
+    <string name="call_plan_msg_confirm_call_back">This customer is already call. Are you sure to call anymore ?</string>
+
+    <!-- END OF CALL PLAN -->
+
+    <!-- ORDER -->
+    <string name="transaction_order_text_price">PRICE</string>
+    '
+    <string name="transaction_order_text_reason_return">REASON</string>
+    <string name="transaction_order_text_stock">STOCK</string>
+    <string name="transaction_order_text_suggestion_order">SUGGESTION</string>
+    <string name="transaction_order_text_order_qty">ORDER</string>
+    <string name="transaction_order_text_return_qty">RETURN</string>
+    <string name="transaction_order_text_last_call">LAST CALL</string>
+
+    <string name="transaction_order_fail">You can\'t order this item.</string>
+    <string name="transaction_order_input_text_dialog">Please input notes for this order.</string>
+    <string name="transaction_order_confirm_containing_item_save">This order containing items. Are you sure to save now ?</string>
+    <string name="transaction_order_msg_restrict_delete_free_good">Free good can\'t be delete.</string>
+    <string name="transaction_order_msg_restrict_edit_free_good">Free good can\'t be edit.</string>
+    <string name="transaction_order_msg_save_success">Transaction saved successfully.</string>
+    <string name="transaction_order_msg_save_fail">Transaction save failed.</string>
+    <string name="transaction_order_msg_update_success">Transaction updated successfully.</string>
+    <string name="transaction_order_msg_update_fail">Transaction updated failed.</string>
+    <string name="transaction_order_msg_fail">Transaction failed.</string>
+    <string name="transaction_order_msg_reason_blank">Reason for return can\'t blank.</string>
+    <string name="transaction_order_msg_no_items">No items.</string>
+    <string name="transaction_order_msg_confirm_clear_items">Clear items?</string>
+    <string name="transaction_order_title_reason_no_order">Reason for no order</string>
+    <string name="transaction_order_title_reason_no_barcode">Reason for no scan</string>
+    <string name="transaction_order_title_reason_no_call">Reason for no call</string>
+    <string name="transaction_order_title_reason_no_route">Alasan diluar route</string>
+    <string name="transaction_order_msg_confirm_delete_all_items">Delete all item ?</string>
+    <string name="transaction_order_msg_transaction_deleted">Transaction deleted</string>
+    <string name="transaction_order_text_view_delivery_date">Dlv.date</string>
+    <string name="transaction_order_text_view_term_of_payment">Term Of Payment</string>
+    <string name="transaction_order_checkbox_text_delivered">Delivered</string>
+
+    <string name="transaction_order_title_choose_product">Choose Product</string>
+
+    <string name="transaction_order_plus_notes">Notes</string>
+    <string name="transaction_order_plus_pricing">Pricing</string>
+    <string name="transaction_order_plus_promotion">Promotion</string>
+    <string name="transaction_order_plus_take_photo">Take a photo</string>
+
+    <string name="transaction_order_text_view_pricing">View Pricing</string>
+    <string name="transaction_order_text_pricing">Pricing</string>
+    <string name="transaction_order_text_regular_discount">Regular Discount</string>
+    <string name="transaction_order_text_extra_discount">Extra Discount</string>
+    <string name="transaction_order_text_extra_discount_ipt">Extra Discount (IPT)</string>
+    <string name="transaction_order_text_special_discount">Special Discount</string>
+    <string name="transaction_order_text_special_discount_ipt">Special Discount (IPT)</string>
+
+
+    <!-- END OF ORDER -->
+
+    <!-- MASTER PRODUCT -->
+    <string name="product_hint_search_text">Search</string>
+    <string name="product_sort_by_name">Sort by name</string>
+    <string name="product_sort_by_alias">Sort by alias</string>
+    <string name="product_sort_by_code">Sort by code</string>
+
+    <string name="product_title_view">View Product</string>
+    <string name="product_title_create_product">Create New Product</string>
+
+    <string name="product_general_tab">GENERAL</string>
+    <string name="product_label_product_number">Product Number</string>
+    <string name="product_label_product_name">Product Name</string>
+    <string name="product_label_product_alias">Product Name Alias</string>
+    <string name="product_label_product_status">Status</string>
+
+    <string name="product_uom_tab">UOM</string>
+    <string name="product_label_base_uom">Base UoM</string>
+    <string name="product_label_small_uom">Small UoM</string>
+    <string name="product_label_medium_uom">Medium UoM</string>
+    <string name="product_label_large_uom">Large UoM</string>
+    <string name="product_label_conversion_large_to_small">Conversion large to small</string>
+    <string name="product_label_conversion_medium_to_small">Conversion Medium to small</string>
+
+    <string name="product_others_tab">OTHERS</string>
+    <string name="product_label_division">Division</string>
+    <string name="product_label_brands">Brands</string>
+
+    <!-- END MASTER PRODUCT -->
+
+
+    <!-- MASTER CUSTOMER -->
+    <string name="customer_hint_search_text">Search</string>
+    <string name="customer_sort_by_name">Sort by name</string>
+    <string name="customer_sort_by_code">product_sort_by_code</string>
+
+    <string name="customer_title_view">View Customer</string>
+    <string name="customer_title_create_customer">Create New Customer</string>
+
+    <string name="customer_general_tab">General</string>
+    <string name="customer_label_customer_number">Customer Number</string>
+    <string name="customer_label_customer_name">Customer Name</string>
+    <string name="customer_label_customer_alias">Customer Name Alias</string>
+    <string name="customer_label_top">Terms of Payment</string>
+    <string name="customer_label_delivery_day">Call Day</string>
+    <string name="customer_label_phone_number">Phone Number</string>
+    <string name="customer_label_contact_person">Contact Person</string>
+    <string name="customer_label_notes">Notes</string>
+    <string name="customer_label_status">Status</string>
+    <string name="customer_label_choose_delivery_day">-- Choose Day --</string>
+    <string name="customer_label_choose_delivery_day_mon">Monday</string>
+    <string name="customer_label_choose_delivery_day_tue">Tuesday</string>
+    <string name="customer_label_choose_delivery_day_wed">Wednesday</string>
+    <string name="customer_label_choose_delivery_day_thu">Thursday</string>
+    <string name="customer_label_choose_delivery_day_fri">Friday</string>
+    <string name="customer_label_choose_delivery_day_sat">Saturday</string>
+    <string name="customer_label_choose_delivery_day_sun">Sunday</string>
+    <string name="customer_address_tab">Address</string>
+    <string name="customer_label_address">Address</string>
+    <string name="customer_label_city">City</string>
+    <string name="customer_label_latitude">Latitude</string>
+    <string name="customer_label_longitude">Longitude</string>
+
+    <string name="customer_others_tab">Others</string>
+    <string name="customer_label_channel">Channel</string>
+    <string name="customer_label_region">Region</string>
+    <string name="customer_label_zone">Zone</string>
+    <string name="customer_label_classifcation">Classification</string>
+    <string name="customer_label_district">District</string>
+    <string name="customer_label_territory">Territory</string>
+
+    <string name="customer_photo_tab">Photo</string>
+    <string name="customer_photo_tap_desc">Tap box below for take photo</string>
+
+    <string name="customer_err_message_blank_customer_name">Customer name is required\n</string>
+    <string name="customer_err_message_blank_customer_alias">Customer alias is required\n</string>
+    <string name="customer_err_message_blank_phone">Phone is required\n</string>
+    <string name="customer_err_message_blank_contact_person">Contact person is required\n</string>
+    <string name="customer_err_message_blank_address">Address is required\n</string>
+    <string name="customer_err_message_blank_city">City is required\n</string>
+    <string name="customer_err_message_blank_region">Region is required\n</string>
+    <string name="customer_err_message_blank_zone">Zone is required\n</string>
+    <string name="customer_err_message_blank_classification">Classification is required\n</string>
+    <string name="customer_err_message_blank_district">District is required\n</string>
+    <string name="customer_err_message_blank_territory">Territory is required\n</string>
+
+
+    <!-- END MASTER PRODUCT -->
+
+
+    <string name="common_msg_invalid_numeric">Invalid numeric</string>
+    <string name="common_msg_invalid">Invalid</string>
+    <string name="common_msg_cancel">Cancel</string>
+    <string name="common_msg_ok">OK</string>
+    <string name="common_msg_yes">Yes</string>
+    <string name="common_msg_no">No</string>
+    <string name="common_msg_confirm">Confirm</string>
+    <string name="common_msg_save">Save</string>
+    <string name="common_msg_delete">Delete</string>
+    <string name="common_msg_deleted">Deleted</string>
+    <string name="common_msg_no_data_found">No Data Found</string>
+    <string name="common_msg_search_hint">Search...</string>
+    <string name="common_msg_warning">Warning</string>
+    <string name="common_msg_error">Error</string>
+    <string name="common_msg_information">Infomation</string>
+
+
+    <string name="common_text_kilometers">Kilometers</string>
+    <string name="common_text_meters">Meters</string>
+    <string name="common_text_order_number">Order number</string>
+
+    <string name="common_text_start_call">Start call</string>
+    <string name="common_text_end_call">End call</string>
+    <string name="common_text_pause_duration">Pause duration</string>
+    <string name="common_text_last_pause">Last paused</string>
+    <string name="common_text_visit_information">Visit Information</string>
+    <string name="common_text_view_customer">View Customer</string>
+    <string name="common_text_change_picture">Change Picture</string>
+    <string name="common_text_details">Details</string>
+    <string name="common_text_visited">Visited</string>
+    <string name="common_text_unvisit">Unvisit</string>
+    <string name="common_text_last_resume">Last Resume</string>
+    <string name="common_text_taking_order">Taking Order</string>
+    <string name="common_text_sales_order">Sales Order</string>
+    <string name="common_text_return_order">Return Order</string>
+    <string name="common_text_order">ORDER</string>
+    <string name="common_text_return">RETURN</string>
+    <string name="common_text_select_hint">SELECT</string>
+    <string name="common_text_item_already_add">is already added.</string>
+
+    <!-- MASTER INVENTORY -->
+    <string name="inventory_reference">Reference</string>
+    <string name="inventory_loading">Loading</string>
+    <string name="inventory_unloading">Unloading</string>
+    <string name="inventory_confirm_containing_item_save">This order containing items. Are you sure to save now ?</string>
+    <string name="inventory_msg_save_success">Transaction saved successfully.</string>
+    <string name="inventory_msg_save_fail">Transaction save failed.</string>
+    <string name="inventory_msg_no_items">No items.</string>
+    <string name="inventory_msg_confirm_clear_items">Clear items?</string>
+    <string name="inventory_text_qty">QTY</string>
+
+    <string name="inventory_sort_by_name">Sort by name</string>
+    <string name="inventory_sort_by_alias">Sort by alias</string>
+    <string name="inventory_sort_by_code">Sort by code</string>
+    <string name="inventory_sort_by_smallest">sort by smallest quantity</string>
+    <string name="inventory_sort_by_largest">sort by largest quantity</string>
+
+
+    <!-- END OF MASTER INVENTORY -->
+
+
+    <!-- TARGET -->
+    <string name="target_text_summary_product">Target Summary Product</string>
+    <string name="target_text_summary_by_product_qty">Target By Product (Qty)</string>
+    <string name="target_text_summary_by_product_value">Target By Product (Value)</string>
+    <string name="target_text_summary_by_call_ec_ipt">Target Call/Ef.Call/IPT</string>
+
+    <string name="target_text_total_target_product_by_qty">TOTAL TARGET PRODUCT BY QTY</string>
+    <string name="target_text_total_target_product_by_value">TOTAL TARGET PRODUCT BY VALUE</string>
+    <string name="target_text">Target</string>
+    <string name="target_transactions_text">Transactions</string>
+    <string name="target_achievement_text">Achievement</string>
+    <string name="target_balance_text">Balance</string>
+
+    <string name="target_call_text">TARGET CALL</string>
+    <string name="target_effective_call_text">TARGET EFFECTIVE CALL</string>
+    <string name="target_effective_ipt">TARGET IPT</string>
+
+    <string name="target_achieve">Achieve</string>
+    <string name="target_under">Under</string>
+    <string name="target_over">Over</string>
+
+    <!-- END OF TARGET -->
+
+
+    <!-- SUMMARY -->
+    <string name="summary_by_product_qty_text">Summary By Product (Qty)</string>
+    <string name="summary_by_product_value_text">Summary By Product (Value)</string>
+    <string name="summary_by_customer_qty_text">Summary By Customer (Qty)</string>
+    <string name="summary_by_customer_value_text">Summary By Customer (Value)</string>
+    <string name="summary_total">Total</string>
+
+    <string name="summary_total_call_plan">Total Call Plan</string>
+    <string name="summary_total_call">Total Call</string>
+    <string name="summary_total_effective_call">Total Effective Call</string>
+    <string name="summary_total_un_call">Total Uncall</string>
+    <string name="summary_total_unplan">Total Unplan</string>
+    <string name="summary_total_call_unplan">Total Call (Unplan)</string>
+    <string name="summary_total_unplan_effective_call">Total Unplan Effective Call</string>
+    <string name="summary_total_product">Total Product</string>
+    <string name="summary_total_qty">Total Qty</string>
+    <string name="summary_total_value">Total Value</string>
+    <!-- END OF SUMMARY -->
+
+
+    <!-- COMPETITOR -->
+    <string name="competitor_text">Competitor</string>
+    <string name="competitor_text_activity">Activity</string>
+    <string name="competitor_text_product">Product</string>
+    <string name="competitor_text_cost">Cost</string>
+    <string name="competitor_text_times">Times</string>
+    <string name="competitor_text_notes">Notes</string>
+    <string name="competitor_err_message_blank_competitor">Competitor is required\n</string>
+    <string name="competitor_err_message_blank_activity">Activity is required\n</string>
+    <string name="competitor_err_message_blank_product">Product is required\n</string>
+    <string name="competitor_err_message_blank_cost">Cost is required\n</string>
+    <string name="competitor_err_message_blank_times">Times is required\n</string>
+    <string name="competitor_err_message_blank_notes">Notes is required\n</string>
+    <string name="competitor_save_ok">Competitor saved successfully</string>
+    <string name="competitor_save_fail">Competitor save fail</string>
+    <!-- END OF COMPETITOR -->
+
+    <!--SYNC-->
+    <string name="sync_docking">Sync / Docking</string>
+    <string name="docking">Docking</string>
+    <string name="sync">Sync</string>
+
+    <string name="docking_requirement_1">(ERRDOC001) Can\'t docking. Please start work first</string>
+    <string name="docking_requirement_2">(ERRDOC002) Can\'t docking. Do docking after you finish / end work</string>
+    <string name="docking_requirement_3">(ERRDOC003) Can\'t docking. You have to end work before do docking</string>
+
+
+    <!--END OF SYNC-->
+
+    <string name="app_exit_confim">Are you sure to exit app ?</string>
+    <string name="app_load_data_confim">No data. Are you sure to download data from server ?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

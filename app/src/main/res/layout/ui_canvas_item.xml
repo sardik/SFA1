@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="re re re rererer ere re rer er ere r e re r e  r e r e r e r e rererere r e r e r e r  erererere  r e r e  r ere"
+        android:textColor="#040404"
+        android:typeface="monospace"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_toLeftOf="@+id/tQty"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_toEndOf="@+id/list_image"
+        android:layout_centerInParent="true" />
+
+
+    <TextView
+        android:id="@+id/tInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:text="IDR 0,0 (disc. 0,00%) = IDR 0,00"
+        android:layout_below="@+id/tProductName"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_toEndOf="@+id/list_image"
+        android:paddingLeft="10dp"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/tQty"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="1000"
+        android:textSize="20dip"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/tPrice" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/tProductNumber" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DUS"
+        android:id="@+id/tUom"
+        android:layout_alignTop="@+id/tQty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:src="@drawable/richeese"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true" />
+<!--
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_image"
+        android:layout_width="55dip"
+        android:layout_height="55dip"
+        android:src="@drawable/richeese"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#20a200"/>-->
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FREE"
+        android:id="@+id/tFree"
+        android:textSize="10dp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_below="@+id/tInfo2"
+        android:layout_alignRight="@+id/tQty"
+        android:layout_alignEnd="@+id/tQty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FREE"
+        android:id="@+id/tItemType"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tInfo2"
+        android:layout_below="@+id/tInfo"
+        android:layout_alignLeft="@+id/tInfo"
+        android:layout_alignStart="@+id/tInfo"
+        android:textSize="14dp"
+        android:paddingLeft="10dp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

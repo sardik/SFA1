@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/list_bg"
+    android:alpha="50"
+    android:id="@+id/popupqty"
+    android:padding="10dp">
+
+
+    <com.ksni.roots.ngsales.nbtiNumberPicker
+        android:id="@+id/tQty"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#7bff48">
+    </com.ksni.roots.ngsales.nbtiNumberPicker>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:visibility="gone"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:id="@+id/btnOk"
+                android:layout_weight="0"
+
+                android:visibility="gone"
+                android:background="@drawable/button_bg"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/btnCancel"
+                android:visibility="gone"
+
+                android:background="@drawable/button_bg_red"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:layout_column="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:visibility="gone"
+                android:layout_column="1" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:gravity="center|left" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="7"
+                    android:text="@string/inventory_text_qty"
+                    android:id="@+id/textView7"
+                    android:gravity="left"
+                    android:paddingRight="15dp"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:textColor="#4a9329" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="3"
+                    android:id="@+id/tOrder"
+                    android:gravity="center"
+                    android:text="0" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/arr_uom"
+                    android:id="@+id/tOrderUom" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

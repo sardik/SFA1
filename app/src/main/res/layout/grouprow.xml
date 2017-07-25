@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PARENT -->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:background="@color/bg_color_lvSummaryOrder"
+	android:stretchColumns="1"
+	android:padding="10dp"
+	android:layout_gravity="top">
+
+	<TableRow>
+        <ImageView
+		   android:id="@+id/image"
+		   android:background="@drawable/ic_menu"
+		   android:layout_width="50dip"
+		   android:layout_height="50dip"
+			android:visibility="gone"
+		   android:layout_marginLeft="10dip"/>
+
+		<TableLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:stretchColumns="1"
+			android:paddingTop="0dip"
+			android:layout_gravity="top">
+
+			<TableRow>
+				<TextView
+				  android:id="@+id/text1"
+					android:text="OutletName"
+					android:textColor="@color/text_color_lvSummaryOrder1"
+					android:typeface="sans"
+				  android:layout_height="wrap_content"
+				  android:layout_width="wrap_content"
+				  android:layout_weight="1"
+					android:layout_gravity="left|center_vertical"
+				  android:textSize="14dip"
+					android:layout_marginLeft="10dip"
+				  android:textStyle="bold"/>
+			</TableRow>
+			 <TableRow >
+			  <TextView
+				  android:id="@+id/text"
+				  android:text="OrderName"
+				  android:layout_height="wrap_content"
+				  android:layout_width="wrap_content"
+				  android:textColor="@color/text_color_lvSummaryOrder2"
+				  android:layout_weight="1"
+				  android:layout_gravity="left|center_vertical"
+				  android:textSize="14dip"
+				  android:layout_marginLeft="10dip"/>
+			</TableRow>
+
+			<TableRow>
+			  <TextView
+				  android:id="@+id/txtTotal"
+				  android:text="TotalOrder"
+				  android:textColor="@color/text_color_lvSummaryOrder3"
+				  android:typeface="sans"
+				  android:layout_height="wrap_content"
+				  android:layout_width="wrap_content"
+				  android:layout_weight="1"
+				  android:layout_gravity="left|center_vertical"
+				  android:textSize="14dip"
+				  android:layout_marginLeft="10dip"
+				  android:textStyle="bold"/>
+			</TableRow>
+
+			<TableRow >
+			  <TextView
+				  android:id="@+id/tStatus"
+				  android:text="SyncStatus"
+				  android:layout_height="wrap_content"
+				  android:layout_width="wrap_content"
+				  android:textColor="@color/text_color_lvSummaryOrder4"
+				  android:layout_weight="1"
+				  android:layout_gravity="left|center_vertical"
+				  android:textSize="12dip"
+				  android:layout_marginLeft="10dip"/>
+			</TableRow>
+
+		</TableLayout>
+	       
+	</TableRow>
+
+
+</TableLayout>

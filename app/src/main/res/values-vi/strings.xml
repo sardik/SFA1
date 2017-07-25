@@ -1,0 +1,547 @@
+<resources>
+    <string name="app_name">S F A</string>
+    <string name="company">ENLV</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_information">information</string>
+    <string name="title_activity_call_plan">CallPlan</string>
+    <string name="title_activity_order">Order</string>
+
+    <string name="action_menu_edit">Edit</string>
+    <string name="action_menu_delete">Delete</string>
+
+    <string-array name="menu">
+        <!--<item>Edit</item>-->
+        <item>Delete</item>
+    </string-array>
+    <string name="title_activity_add_order">add_order</string>
+
+    <string-array name="arr_uom">
+        <item>CRT</item>
+        <item>PAC</item>
+        <item>PC</item>
+    </string-array>
+
+
+    <string name="your_string">Promo Barang.</string>
+
+
+    <string-array name="type_of_building">
+        <item>Contract</item>
+        <item>Own</item>
+        <item>Rent</item>
+    </string-array>
+
+    <string-array name="company_type">
+        <item>Corp</item>
+        <item>LTD</item>
+    </string-array>
+
+    <string-array name="nav_drawer_items">
+        <item>Attandance</item>
+        <item>Call Plan</item>
+        <item>Product</item>
+        <item>Customer</item>
+        <item>Target</item>
+        <item>Competitor</item>
+        <item>View Order</item>
+        <item>Synchronous</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_att</item>
+        <item>@drawable/ic_call</item>
+        <item>@drawable/ic_product</item>
+        <item>@drawable/ic_customer</item>
+        <item>@drawable/ic_target</item>
+        <item>@drawable/ic_competitor</item>
+        <item>@drawable/ic_report</item>
+        <item>@drawable/ic_sync</item>
+    </array>
+
+
+    <string name="sample_activity_form_is_valid">Form is valid</string>
+
+    <string name="lib_name">Z-Validations</string>
+
+    <string name="zvalidations_not_positive_integer">Field should be positive integer</string>
+    <string name="zvalidations_empty">Field could not be empty</string>
+    <string name="zvalidations_not_in_range">Field should be between %1$d and %2$d</string>
+    <string name="zvalidations_not_email">Value is not valid email address</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- mulai for translate -->
+
+
+    <!-- DRAWER MENU -->
+    <string name="drawer_menu_start">Bắt đầu</string>
+    <string name="drawer_menu_call_plan">Kế hoạch thăm viếng</string>
+    <string name="drawer_menu_product">Sản phẩm</string>
+    <string name="drawer_menu_customer">Khách hàng</string>
+    <string name="drawer_menu_inventory">Tồn kho</string>
+    <string name="drawer_menu_target">Chỉ tiêu</string>
+    <string name="drawer_menu_competitor">Đối thủ</string>
+    <string name="drawer_menu_view_order">Xem đơn hàng</string>
+    <string name="drawer_menu_summary">Tổng hợp</string>
+    <string name="drawer_menu_synchronous">Đồng bộ</string>
+    <string name="drawer_menu_settings">cài đặt</string>
+    <string name="drawer_menu_logout">đăng xuất</string>
+    <!-- END OF DRAWER MENU -->
+
+
+    <!-- LOGIN -->
+    <string name="login_hint_user_name">tên người dùng</string>
+    <string name="login_hint_password">mật khẩu</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="login_invalid">Sai mật khẩu hoặc tên người dùng</string>
+    <string name="login_blank">Hãy điền tên đăng nhập và mật khẩu</string>
+    <string name="login_multiple">Nhiều thông tin đăng nhập không được phép</string>
+    <string name="login_switch_restrict">Chuyển sang sử dụng không được phép</string>
+    <string name="login_device_not_register">Thiết bị không được đăng ký</string>
+    <string name="logout_msg_confirm">Thoát khỏi chương trình?</string>
+    <!-- END OF LOGIN -->
+
+    <!-- CONNECTION -->
+    <string name="connection_error">Không thể kết nối đến máy chủ</string>
+    <!-- END OF CONNECTION -->
+
+    <!-- START -->
+
+    <string name="start_label_work_start">Khởi động</string>
+    <string name="start_label_work_end">Kết thúc công việc</string>
+    <string name="start_button_work_start">Khởi động</string>
+    <string name="start_button_work_end">Kết thúc công việc</string>
+    <string name="start_input_box_title_odometer">Nhập số công - tơ - met trên xe máy</string>
+    <string name="start_input_box_text_start_odometer">Nhập số công - tơ - mét điểm đi</string>
+    <string name="start_input_box_text_end_odometer">Nhập số công - tơ - mét điểm đến</string>
+    <string name="start_prompt_button_odometer_save">Lưue</string>
+    <string name="start_prompt_button_odometer_cancel">Hủy bỏ</string>
+    <string name="start_prompt_title_work_end_confirm">Xác nhận</string>
+    <string name="start_prompt_text_work_end_confirm">Kết thúc công việc bây giờ?</string>
+    <string name="start_prompt_button_work_end_yes">Có</string>
+    <string name="start_prompt_button_work_end_cancel">Không</string>
+    <string name="start_work_end_error_customer_still_visit">Còn khách hàng đang viếng thăm. Phải hoàn tất</string>
+    <string name="start_work_end_error_customer_still_pause">Còn khách hàng đang tạm hoãn viếng thăm. Phải hoàn tất</string>
+    <!-- END OF CONNECTION -->
+
+    <!-- LOGOUT -->
+    <string name="logout_prompt_title">Xác nhận từ ENERLIFE</string>
+    <string name="logout_prompt_text">Bạn có chắc chắn để thoát ra?</string>
+    <string name="logout_prompt_button_yes">Có</string>
+    <string name="logout_prompt_button_cancel">Không</string>
+    <!-- END OF LOGOUT -->
+
+    <!-- AUTO UPDATE -->
+    <string name="app_update_prompt_text">Có phiên bản mới. Cập nhật ngay?</string>
+    <string name="app_update_prompt_button_remind_later">Remind later</string>
+    <string name="app_update_prompt_button_ok">Nhắc lại sau</string>
+    <!-- AUTO UPDATE -->
+
+    <!-- EXTRACT DATA DOCKING -->
+    <string name="extract_docking_prompt_title">Xác nhận từ ENERLIFE</string>
+    <string name="extract_docking_prompt_text">Dữ liệu xuất ra sẽ bị hủy toàn bộ dữ liệu chờ ?</string>
+    <string name="extract_docking_prompt_button_yes">Có</string>
+    <string name="extract_docking_prompt_button_cancel">Không</string>
+    <!-- END OF EXTRACT DATA DOCKING -->
+
+    <!-- SYNC MASTER DATA -->
+    <string name="sync_master_docking_prompt_title">Cảnh báo </string>
+    <string name="sync_master_prompt_text">Tín hiệu yếu  ?</string>
+    <string name="sync_master_prompt_button_yes">Có</string>
+    <string name="sync_master_prompt_button_cancel">Không</string>
+
+
+    <string name="sync_master_release">RELEASE</string>
+    <string name="sync_master_active">ACTIVE</string>
+    <string name="sync_master_retry">RETRY</string>
+    <string name="sync_master_done">DONE</string>
+    <string name="sync_master_cancel">CANCEL</string>
+
+    <string name="sync_master_extract_data">Trích xuất dữ liệu bây giờ?</string>
+    <string name="sync_master_extract_data_restrict">Giải nén không được phép</string>
+
+    <!-- END OF SYNC MASTER DATA -->
+
+    <!-- VERSION -->
+    <string name="version_docking_prompt_title">Phiên bản</string>
+    <string name="version_prompt_text">Version %version</string>
+    <string name="version_prompt_button_ok">Có</string>
+    <!-- END OF VERSION -->
+
+
+    <!-- CALL PLAN -->
+    <string name="call_plan_pre_call_btn_text_taking_order">Lấy đơn hàng</string>
+    <string name="call_plan_pre_call_btn_text_return_order">Đơn hàng trả lại</string>
+    <string name="call_plan_pre_call_btn_text_skip_call">Bỏ qua không thăm viếng của hàng</string>
+    <string name="call_plan_pre_call_btn_text_competitor">Đối thủ</string>
+    <string name="call_plan_pre_call_btn_text_end_call">Kết thúc thăm viếng</string>
+    <string name="call_plan_pre_call_text_view_customer_notes">Ghi chú </string>
+
+    <string name="call_plan_pre_call_msg_restrict_return">Trở về thứ tự không được phép</string>
+    <string name="call_plan_pre_call_msg_restrict_skip">Chuyển cuộc gọi không được phép</string>
+    <string name="call_plan_pre_call_msg_confirm_skip">Bỏ qua cửa hàng này?</string>
+    <string name="call_plan_pre_call_msg_restrict_blank_reason">Lý do không có giao dịch .</string>
+    <string name="call_plan_pre_call_msg_restrict_no_picture">Hình ảnh của cửa hàng là cần thiết.</string>
+    <string name="call_plan_pre_title_signature">Chữ ký</string>
+
+
+
+    <string name="checkbox_suggestion_route">đề nghị Route</string>
+    <string name="textview_call_visited_status_list_view">Đã viếng thăm</string>
+    <string name="textview_call_visit_status_list_view">Viếng thăm</string>
+    <string name="textview_call_no_call_status_list_view">No Call</string>
+    <string name="textview_call_unvisit_status_list_view">Không viếng thăm</string>
+    <string name="textview_call_pause_status_list_view">Dừng</string>
+
+    <string name="title_details_dialog">Chi tiết</string>
+    <string name="visit_information_option_dialog_details">Thông tin viếng thăm</string>
+    <string name="view_customer_option_dialog_details">Xem khách hàng</string>
+    <string name="change_picture_option_dialog_details">Thay đổi hình ảnh</string>
+
+    <string name="title_add_unplan_customer">Thêm khách hàng mới vào tuyến</string>
+
+    <string name="call_plan_button_text_change_order">Thay đổi đơn hàng</string>
+    <string name="call_plan_button_text_change_return">Thay đổi trở lại</string>
+    <string name="call_plan_button_text_create_order">tạo ra trật tự mới</string>
+    <string name="call_plan_title_view_order">Xem đơn hàng</string>
+    <string name="call_plan_title_view_return">Xem đơn đặt hàng trở lại</string>
+
+    <string name="call_plan_restict_add_unplan">Thêm unplan không được phép</string>
+    <string name="call_plan_restict_invalid_location">vị trí khách hàng không hợp lệ</string>
+    <string name="call_plan_restict_recall">Nhớ lại khách hàng không được phép</string>
+    <string name="call_plan_no_work_start">Xin vui lòng điền bắt đầu công việc của bạn tham dự</string>
+
+    <string name="call_plan_msg_still_visit">vẫn đến thăm</string>
+
+    <string name="call_plan_msg_confirm_call_back">Khách hàng này đã viếng thăm. Bạn muốn viếng thăm lại?</string>
+
+    <!-- END OF CALL PLAN -->
+
+    <!-- ORDER -->
+    <string name="transaction_order_text_price">Giá</string>
+    '<string name="transaction_order_text_reason_return">Lý do</string>
+    <string name="transaction_order_text_stock">Tồn kho</string>
+    <string name="transaction_order_text_suggestion_order">Đề nghị</string>
+    <string name="transaction_order_text_order_qty">Đặt hàng</string>
+    <string name="transaction_order_text_return_qty">trở về</string>
+    <string name="transaction_order_text_last_call">Thăm viếng điểm cuối cùng</string>
+
+    <string name="transaction_order_input_text_dialog">Vui lòng nhập các ghi chú cho đơn đặt hàng này.</string>
+    <string name="transaction_order_confirm_containing_item_save">Đơn hàng này chứa các mặt hàng. Bạn có chắc chắn để lưu bây giờ?</string>
+    <string name="transaction_order_msg_restrict_delete_free_good">Miễn phí tốt không thể bị xóa.</string>
+    <string name="transaction_order_msg_restrict_edit_free_good">Miễn phí tốt không thể được chỉnh sửa.</string>
+    <string name="transaction_order_msg_save_success">Giao dịch lưu trữ thành công</string>
+    <string name="transaction_order_msg_save_fail">Giao dịch tiết kiệm không.</string>
+    <string name="transaction_order_msg_update_success">Giao dịch cập nhật thành công.</string>
+    <string name="transaction_order_msg_update_fail">cập nhật giao dịch thất bại.</string>
+    <string name="transaction_order_msg_fail">Giao dịch thất bại.</string>
+    <string name="transaction_order_msg_reason_blank">Lý do cho sự trở lại không thể trống.</string>
+    <string name="transaction_order_msg_no_items">Không có sản phẩm.</string>
+    <string name="transaction_order_msg_confirm_clear_items">rõ ràng mục?</string>
+    <string name="transaction_order_title_reason_no_order">Lý do không lấy được đơn hàng</string>
+    <string name="transaction_order_title_reason_no_barcode">Reason for no scan</string>
+    <string name="transaction_order_title_reason_no_call">Reason for no call</string>
+    <string name="transaction_order_title_reason_no_route">Alasan diluar route</string>
+    <string name="transaction_order_msg_confirm_delete_all_items">Xóa tất cả các mục ?</string>
+    <string name="transaction_order_msg_transaction_deleted">giao dịch xóa</string>
+    <string name="transaction_order_text_view_delivery_date">ngày giao hàng</string>
+    <string name="transaction_order_text_view_term_of_payment">Thỏa thuận Thanh toán</string>
+    <string name="transaction_order_checkbox_text_delivered">Đã giao hàng</string>
+
+    <string name="transaction_order_title_choose_product">Chọn sản phẩm</string>
+
+    <string name="transaction_order_plus_notes">Ghi chú </string>
+    <string name="transaction_order_plus_pricing">Giá</string>
+    <string name="transaction_order_plus_promotion">Xúc tiến</string>
+    <string name="transaction_order_plus_take_photo">Chụp một tấm</string>
+
+    <string name="transaction_order_text_view_pricing">Xem bản giá</string>
+    <string name="transaction_order_text_pricing">Giá</string>
+    <string name="transaction_order_text_regular_discount">Chiết khấu thông thường</string>
+    <string name="transaction_order_text_extra_discount">Chiết khấu thêm</string>
+    <string name="transaction_order_text_extra_discount_ipt">Chiết khấu thêm (IPT)</string>
+    <string name="transaction_order_text_special_discount">Chiết khấu đặc biệt</string>
+    <string name="transaction_order_text_special_discount_ipt">Chiết khấu đặc biệt (IPT)</string>
+
+
+
+    <!-- END OF ORDER -->
+
+    <!-- MASTER PRODUCT -->
+
+
+    <string name="product_hint_search_text">Tìm kiếm</string>
+    <string name="product_sort_by_name">Sắp xếp theo tên</string>
+    <string name="product_sort_by_alias">Sắp xếp theo tên viết tắt của sản phẩm</string>
+    <string name="product_sort_by_code">Sắp xếp theo mã số</string>
+
+    <string name="product_title_view">Xem sản phẩm</string>
+    <string name="product_title_create_product">Tạo sản phẩm mới</string>
+
+    <string name="product_general_tab">Chung</string>
+    <string name="product_label_product_number">Mã sản phẩm</string>
+    <string name="product_label_product_name">Tên sản phẩm</string>
+    <string name="product_label_product_alias">Tên viết tắt sản phẩm</string>
+    <string name="product_label_product_status">Tình trạng</string>
+
+    <string name="product_uom_tab">Đơn vị tính</string>
+    <string name="product_label_base_uom">Qui cách chuẩn</string>
+    <string name="product_label_small_uom">Qui cách nhỏ</string>
+    <string name="product_label_medium_uom">Qui cách trung bình</string>
+    <string name="product_label_large_uom">Qui cách lớn</string>
+    <string name="product_label_conversion_large_to_small">Qui đổi qui cách từ lớn xuống nhỏ</string>
+    <string name="product_label_conversion_medium_to_small">Qui đổi qui cách từ trung bình xuống nhỏ</string>
+
+    <string name="product_others_tab">Khác</string>
+    <string name="product_label_division">Nhóm sản phẩm</string>
+    <string name="product_label_brands">Thương hiệu</string>
+
+    <!-- END MASTER PRODUCT -->
+
+
+
+    <!-- MASTER CUSTOMER -->
+    <string name="customer_hint_search_text">Tìm kiếm</string>
+    <string name="customer_sort_by_name">Sắp xếp theo tên</string>
+    <string name="customer_sort_by_code">Sắp xếp theo mã số</string>
+
+    <string name="customer_title_view">Xem khách hàng</string>
+    <string name="customer_title_create_customer">Tạo cửa hàng mới</string>
+
+    <string name="customer_general_tab">Chung</string>
+    <string name="customer_label_customer_number">Khách hàng số</string>
+    <string name="customer_label_customer_name">Tên khách hàng</string>
+    <string name="customer_label_customer_alias">Tên viết tắt</string>
+    <string name="customer_label_top">Điều khoản thanh toán</string>
+    <string name="customer_label_delivery_day">ngày giao hàng</string>
+    <string name="customer_label_phone_number">Số điện thoại</string>
+    <string name="customer_label_contact_person">Người liên hệ</string>
+    <string name="customer_label_notes">Ghi chú </string>
+    <string name="customer_label_status">Tình trạng</string>
+
+    <string name="customer_address_tab">Địa chỉ</string>
+    <string name="customer_label_address">Địa chỉ</string>
+    <string name="customer_label_city">Thành phố</string>
+    <string name="customer_label_latitude">Vĩ độ</string>
+    <string name="customer_label_longitude">Kinh độ</string>
+
+    <string name="customer_others_tab">Khác</string>
+    <string name="customer_label_channel">Kênh bán hàng</string>
+    <string name="customer_label_region">Khu vực</string>
+    <string name="customer_label_zone">Vùng</string>
+    <string name="customer_label_classifcation">Phân loại </string>
+    <string name="customer_label_district">Quận, Huyện </string>
+    <string name="customer_label_territory">Địa bàn </string>
+
+    <string name="customer_photo_tab">Hình ảnh</string>
+                        <string name="customer_photo_tap_desc">Ấn nút bên dưới để chụp ảnh</string>
+
+    <string name="customer_err_message_blank_customer_name">Tên khách hàng là cần thiết\n</string>
+    <string name="customer_err_message_blank_customer_alias">bí danh của khách hàng là cần thiết\n</string>
+    <string name="customer_err_message_blank_phone">Điện thoại là cần thiết\n</string>
+    <string name="customer_err_message_blank_contact_person">Người liên hệ là cần thiết\n</string>
+    <string name="customer_err_message_blank_address">Người liên hệ là cần thiết\n</string>
+    <string name="customer_err_message_blank_city">Thành phố được yêu cầu\n</string>
+    <string name="customer_err_message_blank_region">Khu vực là cần thiết\n</string>
+    <string name="customer_err_message_blank_zone">Khu là cần thiết\n</string>
+    <string name="customer_err_message_blank_classification">Phân loại là cần thiết\n</string>
+    <string name="customer_err_message_blank_district">Quận được yêu cầu\n</string>
+    <string name="customer_err_message_blank_territory">Lãnh thổ là cần thiết\n</string>
+
+
+
+    <!-- END MASTER PRODUCT -->
+
+
+    <string name="common_msg_invalid_numeric">số không hợp lệ</string>
+    <string name="common_msg_invalid">không hợp lệ</string>
+    <string name="common_msg_cancel">Hủy bỏ</string>
+    <string name="common_msg_ok">Chấp nhận </string>
+    <string name="common_msg_yes">Có</string>
+    <string name="common_msg_no">Không</string>
+    <string name="common_msg_confirm">Xác nhận</string>
+    <string name="common_msg_save">Lưu</string>
+    <string name="common_msg_delete">xóa bỏ</string>
+    <string name="common_msg_deleted">xóa bỏ</string>
+    <string name="common_msg_no_data_found">Không tìm thấy dữ liệu nào</string>
+    <string name="common_msg_search_hint">Tìm kiếm...</string>
+    <string name="common_msg_warning">Cảnh báo</string>
+    <string name="common_msg_error">lỗi</string>
+    <string name="common_msg_information">Thông tin</string>
+
+
+    <string name="common_text_kilometers">Km</string>
+    <string name="common_text_meters">Meter</string>
+    <string name="common_text_order_number">số thứ tự</string>
+
+    <string name="common_text_start_call">Bắt đầu viếng thăm</string>
+    <string name="common_text_end_call">Kết thúc thăm viếng</string>
+    <string name="common_text_pause_duration">Thời gian dừng</string>
+    <string name="common_text_last_pause">Lần cuối tạm dừng</string>
+    <string name="common_text_visit_information">Thông tin viếng thăm</string>
+    <string name="common_text_view_customer">Xem khách hàng</string>
+    <string name="common_text_change_picture">Thay đổi hình ảnh</string>
+    <string name="common_text_details">Chi tiết</string>
+    <string name="common_text_visited">Đã viếng thăm</string>
+    <string name="common_text_unvisit">Không viếng thăm</string>
+    <string name="common_text_last_resume">Lần cuối mở lại</string>
+    <string name="common_text_taking_order">Lấy đơn hàng</string>
+    <string name="common_text_sales_order">Đơn đặt hàng</string>
+    <string name="common_text_return_order">Đơn hàng trả lại</string>
+    <string name="common_text_order">Đặt hàng</string>
+    <string name="common_text_return">Trở về</string>
+    <string name="common_text_select_hint">lựa chọn</string>
+    <string name="common_text_item_already_add">đã được thêm.</string>
+
+    <!-- MASTER INVENTORY -->
+    <string name="inventory_reference">Tham khảo</string>
+    <string name="inventory_loading">Đang tải</string>
+    <string name="inventory_unloading">Tải xuống</string>
+    <string name="inventory_confirm_containing_item_save">Bạn có chắc chắn để lưu bây giờ?</string>
+    <string name="inventory_msg_save_success">Giao dịch lưu trữ thành công.</string>
+    <string name="inventory_msg_save_fail">Giao dịch tiết kiệm không.</string>
+    <string name="inventory_msg_no_items">Không có sản phẩm.</string>
+    <string name="inventory_msg_confirm_clear_items">Rõ ràng các mục?</string>
+    <string name="inventory_text_qty">Số lượng</string>
+
+    <string name="inventory_sort_by_name">Sắp xếp theo tên</string>
+    <string name="inventory_sort_by_alias">Sắp xếp theo tên viết tắt của sản phẩm</string>
+    <string name="inventory_sort_by_code">Sắp xếp theo mã số</string>
+    <string name="inventory_sort_by_smallest">Sắp xếp theo số lượng nhỏ nhất</string>
+    <string name="inventory_sort_by_largest">Sắp xếp theo số lượng lớn</string>
+
+
+    <!-- END OF MASTER INVENTORY -->
+
+
+    <!-- TARGET -->
+    <string name="target_text_summary_product">Chỉ tiêu tổng</string>
+    <string name="target_text_summary_by_product_qty">Chỉ tiêu bằng số lượng sản phẩm</string>
+    <string name="target_text_summary_by_product_value">Chỉ tiêu bằng giá trị sản phẩm</string>
+    <string name="target_text_summary_by_call_ec_ipt">Chỉ tiêu VC/PC/IPT</string>
+
+    <string name="target_text_total_target_product_by_qty">Tổng chỉ tiêu theo số lượng sản phẩm</string>
+    <string name="target_text_total_target_product_by_value">Tổng chỉ tiêu theo giá trị</string>
+    <string name="target_text">Chỉ tiêu</string>
+    <string name="target_transactions_text">Giao dịch</string>
+    <string name="target_achievement_text">Đạt chỉ tiêu</string>
+    <string name="target_balance_text">Cân đối</string>
+
+    <string name="target_call_text">Chỉ tiêu thăm viếng</string>
+    <string name="target_effective_call_text">Chỉ tiêu đơn hàng thành công</string>
+    <string name="target_effective_ipt">Chỉ tiêu IPT</string>
+
+    <string name="target_achieve">Đạt chỉ tiêu</string>
+    <string name="target_under">Dưới</string>
+    <string name="target_over">Hơn</string>
+
+    <!-- END OF TARGET -->
+
+
+    <!-- SUMMARY -->
+    <string name="summary_by_product_qty_text">Tổng hợp số lượng theo sản phẩm</string>
+    <string name="summary_by_product_value_text">Tổng hợp giá trị theo sản phẩm</string>
+    <string name="summary_by_customer_qty_text">Tổng hợp số lượng theo khách hàng</string>
+    <string name="summary_by_customer_value_text">Tổng hợp giá trị theo khách hàng</string>
+    <string name="summary_total">Tổng cộng</string>
+
+    <string name="summary_total_call_plan">Tổng cộng số cửa hàng viếng thăm (theo lịch làm việc)</string>
+    <string name="summary_total_call">Tổng cộng số cửa hàng viếng thăm</string>
+    <string name="summary_total_effective_call">Tổng cộng số đơn hàng thành công</string>
+    <string name="summary_total_un_call">tổng thu hồi</string>
+    <string name="summary_total_unplan">Tổng cộng không theo lịch</string>
+    <string name="summary_total_call_unplan">Tổng cộng số cửa hàng viếng thăm (không theo lịch làm việc)</string>
+    <string name="summary_total_unplan_effective_call">Tổng cộng đơn hàng thành công không theo lịch làm việc</string>
+    <string name="summary_total_product">Tổng số lượng sản phẩm</string>
+    <string name="summary_total_qty">Tổng số lượng</string>
+    <string name="summary_total_value">Tổng giá trị</string>
+    <!-- END OF SUMMARY -->
+
+
+    <!-- COMPETITOR -->
+    <string name="competitor_text">Đối thủ</string>
+    <string name="competitor_text_activity">Hoạt động</string>
+    <string name="competitor_text_product">Sản phẩm </string>
+    <string name="competitor_text_cost">Chi phí</string>
+    <string name="competitor_text_times">Thời gian</string>
+    <string name="competitor_text_notes">Ghi chú </string>
+    <string name="competitor_err_message_blank_competitor">Đối thủ cạnh tranh là cần thiết\n</string>
+    <string name="competitor_err_message_blank_activity">Hoạt động là cần thiết\n</string>
+    <string name="competitor_err_message_blank_product">Sản phẩm được yêu cầu\n</string>
+    <string name="competitor_err_message_blank_cost">Chi phí là cần thiết\n</string>
+    <string name="competitor_err_message_blank_times">Times là cần thiết\n</string>
+    <string name="competitor_err_message_blank_notes">Ghi chú là cần thiết\n</string>
+    <string name="competitor_save_ok">Đối thủ cạnh tranh lưu thành công</string>
+    <string name="competitor_save_fail">Đối thủ cạnh tranh không lưu</string>
+    <!-- END OF COMPETITOR -->
+
+
+    <string name="app_exit_confim">Bạn có chắc chắn để thoát ứng dụng?</string>
+    <string name="app_load_data_confim">Không có dữ liệu. Bạn có chắc chắn để tải dữ liệu từ máy chủ?</string>
+
+
+
+
+</resources>

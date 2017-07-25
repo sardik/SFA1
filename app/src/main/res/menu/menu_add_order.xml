@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ksni.roots.ngsales.domain.add_order">
+    <!--<item android:id="@+id/action_suggest" android:title="Standard"
+        android:icon="@drawable/ic_suggestion"
+        android:orderInCategory="100" app:showAsAction="always" />
+        -->
+        <item android:id="@+id/action_search"
+            android:title="Search"
+            android:icon="@drawable/ic_search_white_24dp"
+            app:showAsAction="always" />
+
+<!--
+    <group android:id="@+id/groupSort"
+        android:checkableBehavior="single">
+        <item android:id="@+id/menu_sort_by_name"
+            android:title="Sort by name" android:checked="true"/>
+        <item android:id="@+id/menu_sort_by_alias"
+            android:title="Sort by alias"/>
+        <item android:id="@+id/menu_sort_by_code"
+            android:title="Sort by code"/>
+        <item android:id="@+id/menu_sort_by_smallest"
+            android:title="Sort by smallest" android:checked="false"/>
+        <item android:id="@+id/menu_sort_by_largest"
+            android:title="Sort by largest" android:checked="false"/>
+    </group>
+    -->
+</menu>

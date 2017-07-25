@@ -1,0 +1,553 @@
+<resources>
+    <string name="app_name">S F A</string>
+    <string name="company">ENLV</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_information">information</string>
+    <string name="title_activity_call_plan">CallPlan</string>
+    <string name="title_activity_order">Order</string>
+
+    <string name="action_menu_edit">Edit</string>
+    <string name="action_menu_delete">Delete</string>
+
+    <string-array name="menu">
+        <!--<item>Edit</item>-->
+        <item>Delete</item>
+    </string-array>
+    <string name="title_activity_add_order">add_order</string>
+
+    <string-array name="arr_uom">
+        <item>CRT</item>
+        <item>PAC</item>
+        <item>PC</item>
+    </string-array>
+
+
+    <string name="your_string">Promo Barang.</string>
+
+
+    <string-array name="type_of_building">
+        <item>Contract</item>
+        <item>Own</item>
+        <item>Rent</item>
+    </string-array>
+
+    <string-array name="company_type">
+        <item>Corp</item>
+        <item>LTD</item>
+    </string-array>
+
+    <string-array name="nav_drawer_items">
+        <item>Attandance</item>
+        <item>Call Plan</item>
+        <item>Product</item>
+        <item>Customer</item>
+        <item>Target</item>
+        <item>Competitor</item>
+        <item>View Order</item>
+        <item>Synchronous</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_att</item>
+        <item>@drawable/ic_call</item>
+        <item>@drawable/ic_product</item>
+        <item>@drawable/ic_customer</item>
+        <item>@drawable/ic_target</item>
+        <item>@drawable/ic_competitor</item>
+        <item>@drawable/ic_report</item>
+        <item>@drawable/ic_sync</item>
+    </array>
+
+
+    <string name="sample_activity_form_is_valid">Form is valid</string>
+
+    <string name="lib_name">Z-Validations</string>
+
+    <string name="zvalidations_not_positive_integer">Field should be positive integer</string>
+    <string name="zvalidations_empty">Field could not be empty</string>
+    <string name="zvalidations_not_in_range">Field should be between %1$d and %2$d</string>
+    <string name="zvalidations_not_email">Value is not valid email address</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- mulai for translate -->
+
+
+    <!-- DRAWER MENU -->
+    <string name="drawer_menu_start">开始</string>
+    <string name="drawer_menu_call_plan">目标拜访</string>
+    <string name="drawer_menu_product">产品</string>
+    <string name="drawer_menu_customer">客户</string>
+    <string name="drawer_menu_inventory">库存</string>
+    <string name="drawer_menu_target">目标</string>
+    <string name="drawer_menu_competitor">竞品</string>
+    <string name="drawer_menu_view_order">预览订单</string>
+    <string name="drawer_menu_summary">小结</string>
+    <string name="drawer_menu_synchronous">同步</string>
+    <string name="drawer_menu_settings">设置</string>
+    <string name="drawer_menu_logout">登出</string>
+    <!-- END OF DRAWER MENU -->
+
+
+    <!-- LOGIN -->
+    <string name="login_hint_user_name">用户名</string>
+    <string name="login_hint_password">密码</string>
+    <string name="login_button">登录</string>
+    <string name="login_invalid">无效的用户名或密码</string>
+    <string name="login_blank">请填写用户名和密码</string>
+    <string name="login_multiple">多重登录不准</string>
+    <string name="login_switch_restrict">交换机不允许用户</string>
+    <string name="login_device_not_register">设备未注册</string>
+    <string name="logout_msg_confirm">您确定要退出？</string>
+    <!-- END OF LOGIN -->
+
+    <!-- CONNECTION -->
+    <string name="connection_error">Unable connect to server</string>
+    <!-- END OF CONNECTION -->
+
+    <!-- START -->
+
+    <string name="start_label_work_start">开始工作</string>
+    <string name="start_label_work_end">结束工作</string>
+    <string name="start_button_work_start">开始工作</string>
+    <string name="start_button_work_end">结束工作</string>
+    <string name="start_input_box_title_odometer">Input Odometer</string>
+    <string name="start_input_box_text_start_odometer">请价值里程表输入启动</string>
+    <string name="start_input_box_text_end_odometer">请价值里程表输入端</string>
+    <string name="start_prompt_button_odometer_save">保存</string>
+    <string name="start_prompt_button_odometer_cancel">取消</string>
+    <string name="start_prompt_title_work_end_confirm">确认</string>
+    <string name="start_prompt_text_work_end_confirm">现在结束工作?</string>
+    <string name="start_prompt_button_work_end_yes">是</string>
+    <string name="start_prompt_button_work_end_cancel">否</string>
+    <string name="start_work_end_error_customer_still_visit">还有客户拜访的地位。请填写</string>
+    <string name="start_work_end_error_customer_still_pause">还有的客户将暂停状态。请填写</string>
+    <!-- END OF CONNECTION -->
+
+    <!-- LOGOUT -->
+    <string name="logout_prompt_title">Enerlifr Confirm</string>
+    <string name="logout_prompt_text">Are you sure to logout?</string>
+    <string name="logout_prompt_button_yes">YES</string>
+    <string name="logout_prompt_button_cancel">NO</string>
+    <!-- END OF LOGOUT -->
+
+    <!-- AUTO UPDATE -->
+    <string name="app_update_prompt_text">有新的可用此应用程序的版本。 即刻升级？</string>
+    <string name="app_update_prompt_button_remind_later">以后提醒</string>
+    <string name="app_update_prompt_button_ok">好的</string>
+    <!-- AUTO UPDATE -->
+
+    <!-- EXTRACT DATA DOCKING -->
+    <string name="extract_docking_prompt_title">确认</string>
+    <string name="extract_docking_prompt_text">提取数据？</string>
+    <string name="extract_docking_prompt_button_yes">是</string>
+    <string name="extract_docking_prompt_button_cancel">否</string>
+    <!-- END OF EXTRACT DATA DOCKING -->
+
+    <!-- SYNC MASTER DATA -->
+    <string name="sync_master_docking_prompt_title">警告</string>
+    <string name="sync_master_prompt_text">此操作需要的连接强度。 继续 ？</string>
+    <string name="sync_master_prompt_button_yes">是</string>
+    <string name="sync_master_prompt_button_cancel">否</string>
+
+
+    <string name="sync_master_release">RELEASE</string>
+    <string name="sync_master_active">ACTIVE</string>
+    <string name="sync_master_retry">RETRY</string>
+    <string name="sync_master_done">DONE</string>
+    <string name="sync_master_cancel">CANCEL</string>
+
+    <string name="sync_master_extract_data">Extract Data now?</string>
+    <string name="sync_master_extract_data_restrict">Extract not allowed</string>
+
+    <!-- END OF SYNC MASTER DATA -->
+
+    <!-- VERSION -->
+    <string name="version_docking_prompt_title">VERSION</string>
+    <string name="version_prompt_text">Version %version</string>
+    <string name="version_prompt_button_ok">OK</string>
+    <!-- END OF VERSION -->
+
+
+    <!-- CALL PLAN -->
+    <string name="call_plan_pre_call_btn_text_taking_order">以订单</string>
+    <string name="call_plan_pre_call_btn_text_return_order">返回订单</string>
+    <string name="call_plan_pre_call_btn_text_skip_call">跳过拜访</string>
+    <string name="call_plan_pre_call_btn_text_competitor">竞品</string>
+    <string name="call_plan_pre_call_btn_text_end_call">结束拜访</string>
+    <string name="call_plan_pre_call_text_view_customer_notes">客户记录</string>
+
+    <string name="call_plan_pre_call_msg_restrict_return">退货订单不允许</string>
+    <string name="call_plan_pre_call_msg_restrict_skip">跳过调用不允许</string>
+    <string name="call_plan_pre_call_msg_confirm_skip">你确定要跳过电话 ?</string>
+    <string name="call_plan_pre_call_msg_restrict_blank_reason">空交易需要一个理由</string>
+    <string name="call_plan_pre_call_msg_restrict_no_picture">图象出口的需要</string>
+    <string name="call_plan_pre_title_signature">签名</string>
+
+
+
+    <string name="checkbox_suggestion_route">建议路线</string>
+    <string name="textview_call_visited_status_list_view">已访问</string>
+    <string name="textview_call_no_call_status_list_view">No Call</string>
+    <string name="textview_call_visit_status_list_view">访问</string>
+    <string name="textview_call_unvisit_status_list_view">未访问</string>
+    <string name="textview_call_pause_status_list_view">已访问</string>
+
+    <string name="title_details_dialog">详细资料</string>
+    <string name="visit_information_option_dialog_details">访问信息</string>
+    <string name="view_customer_option_dialog_details">预览客户</string>
+    <string name="change_picture_option_dialog_details">更改图片</string>
+
+    <string name="title_add_unplan_customer">新增计划外客户</string>
+
+    <string name="call_plan_button_text_change_order">更改订单</string>
+    <string name="call_plan_button_text_change_return">改变返回</string>
+    <string name="call_plan_button_text_create_order">创建新订单</string>
+    <string name="call_plan_title_view_order">预览订单</string>
+    <string name="call_plan_title_view_return">查看返回</string>
+
+    <string name="call_plan_restict_add_unplan">添加unplan是不允许的</string>
+    <string name="call_plan_restict_invalid_location">无效的客户位置，请修正位置</string>
+    <string name="call_plan_restict_recall">恢复客户不允许</string>
+    <string name="call_plan_no_work_start">请填写您的出勤工作开始</string>
+
+    <string name="call_plan_msg_still_visit">还有参观</string>
+
+    <string name="call_plan_msg_confirm_call_back">此客户已拜访，请确认是否需要再次拜访 ?</string>
+
+    <!-- END OF CALL PLAN -->
+
+    <!-- ORDER -->
+    <string name="transaction_order_text_price">价格</string>
+    '<string name="transaction_order_text_reason_return">原因</string>
+    <string name="transaction_order_text_stock">库存</string>
+    <string name="transaction_order_text_suggestion_order">建议</string>
+    <string name="transaction_order_text_order_qty">订单</string>
+    <string name="transaction_order_text_return_qty">返回订单</string>
+    <string name="transaction_order_text_last_call">最后拜访</string>
+
+    <string name="transaction_order_input_text_dialog">请输入指出该订单</string>
+    <string name="transaction_order_confirm_containing_item_save">你确定现在保存？</string>
+    <string name="transaction_order_msg_restrict_delete_free_good">免费的好无法删除</string>
+    <string name="transaction_order_msg_restrict_edit_free_good">免费好不能编辑</string>
+    <string name="transaction_order_msg_save_success">交易成功保存</string>
+    <string name="transaction_order_msg_save_fail">事务保存失败</string>
+    <string name="transaction_order_msg_update_success">交易成功更新</string>
+    <string name="transaction_order_msg_update_fail">交易更新失败</string>
+    <string name="transaction_order_msg_fail">交易失败</string>
+    <string name="transaction_order_msg_reason_blank">退货原因不能空白</string>
+    <string name="transaction_order_msg_no_items">No items没有</string>
+    <string name="transaction_order_msg_confirm_clear_items">清除的项目？</string>
+    <string name="transaction_order_title_reason_no_order">原因没有订单</string>
+    <string name="transaction_order_title_reason_no_barcode">Reason for no scan</string>
+    <string name="transaction_order_title_reason_no_call">Reason for no call</string>
+    <string name="transaction_order_title_reason_no_route">Alasan diluar route</string>
+    <string name="transaction_order_msg_confirm_delete_all_items">删除所有项目 ?</string>
+    <string name="transaction_order_msg_transaction_deleted">交易删除</string>
+    <string name="transaction_order_text_view_delivery_date">邮寄日期</string>
+    <string name="transaction_order_text_view_term_of_payment">付款条件</string>
+    <string name="transaction_order_checkbox_text_delivered">交付</string>
+
+    <string name="transaction_order_title_choose_product">选择产品</string>
+
+    <string name="transaction_order_plus_notes">记录</string>
+    <string name="transaction_order_plus_pricing">定价</string>
+    <string name="transaction_order_plus_promotion">促销</string>
+    <string name="transaction_order_plus_take_photo">拍照</string>
+
+    <string name="transaction_order_text_view_pricing">预览价格</string>
+    <string name="transaction_order_text_pricing">定价</string>
+    <string name="transaction_order_text_regular_discount">常规折扣</string>
+    <string name="transaction_order_text_extra_discount">额外折扣</string>
+    <string name="transaction_order_text_extra_discount_ipt">额外折扣（每笔交易订货数量）</string>
+    <string name="transaction_order_text_special_discount">特殊折扣</string>
+    <string name="transaction_order_text_special_discount_ipt">特殊折扣 (IPT)</string>
+
+
+
+    <!-- END OF ORDER -->
+
+    <!-- MASTER PRODUCT -->
+
+
+    <string name="product_hint_search_text">查找</string>
+    <string name="product_sort_by_name">名称排序</string>
+    <string name="product_sort_by_alias">简称排序</string>
+    <string name="product_sort_by_code">代码排序</string>
+
+    <string name="product_title_view">预览产品</string>
+    <string name="product_title_create_product">Create New Product</string>
+
+    <string name="product_general_tab">常规</string>
+    <string name="product_label_product_number">产品编号</string>
+    <string name="product_label_product_name">产品名称</string>
+    <string name="product_label_product_alias">产品别称</string>
+    <string name="product_label_product_status">状态</string>
+
+    <string name="product_uom_tab">计量单位</string>
+    <string name="product_label_base_uom">基础计量单位</string>
+    <string name="product_label_small_uom">小计量单位</string>
+    <string name="product_label_medium_uom">盒数计量单位</string>
+    <string name="product_label_large_uom">件数计量单位</string>
+    <string name="product_label_conversion_large_to_small">由箱数转换到条装数</string>
+    <string name="product_label_conversion_medium_to_small">由盒装数转换到条装数</string>
+
+    <string name="product_others_tab">其他</string>
+    <string name="product_label_division">行政区域</string>
+    <string name="product_label_brands">品类</string>
+
+    <!-- END MASTER PRODUCT -->
+
+
+
+    <!-- MASTER CUSTOMER -->
+    <string name="customer_hint_search_text">查找</string>
+    <string name="customer_sort_by_name">名称排序</string>
+    <string name="customer_sort_by_code">代码排序</string>
+
+    <string name="customer_title_view">预览客户</string>
+    <string name="customer_title_create_customer">创建新客户</string>
+
+    <string name="customer_general_tab">常规</string>
+    <string name="customer_label_customer_number">客户编号</string>
+    <string name="customer_label_customer_name">客户名称</string>
+    <string name="customer_label_customer_alias">客户简称</string>
+    <string name="customer_label_top">付款条件</string>
+    <string name="customer_label_delivery_day">发货日</string>
+    <string name="customer_label_phone_number">Phone电话</string>
+    <string name="customer_label_contact_person">联系人</string>
+    <string name="customer_label_notes">记录</string>
+    <string name="customer_label_status">状态</string>
+
+    <string name="customer_address_tab">地址</string>
+    <string name="customer_label_address">地址</string>
+    <string name="customer_label_city">城市</string>
+    <string name="customer_label_latitude">范围</string>
+    <string name="customer_label_longitude">经度</string>
+
+    <string name="customer_others_tab">其他</string>
+    <string name="customer_label_channel">渠道</string>
+    <string name="customer_label_region">区域</string>
+    <string name="customer_label_zone">大区</string>
+    <string name="customer_label_classifcation">分类</string>
+    <string name="customer_label_district">大区</string>
+    <string name="customer_label_territory">代理区域</string>
+
+    <string name="customer_photo_tab">照片</string>
+    <string name="customer_photo_tap_desc">下面拍照点击框</string>
+
+    <string name="customer_err_message_blank_customer_name">Customer name is required\n</string>
+    <string name="customer_err_message_blank_customer_alias">Customer alias is required\n</string>
+    <string name="customer_err_message_blank_phone">Phone is required\n</string>
+    <string name="customer_err_message_blank_contact_person">Contact person is required\n</string>
+    <string name="customer_err_message_blank_address">Contact person is required\n</string>
+    <string name="customer_err_message_blank_city">City is required\n</string>
+    <string name="customer_err_message_blank_region">Region is required\n</string>
+    <string name="customer_err_message_blank_zone">Zone is required\n</string>
+    <string name="customer_err_message_blank_classification">Classification is required\n</string>
+    <string name="customer_err_message_blank_district">District is required\n</string>
+    <string name="customer_err_message_blank_territory">Territory is required\n</string>
+
+
+
+    <!-- END MASTER PRODUCT -->
+
+
+    <string name="common_msg_invalid_numeric">Invalid numeric</string>
+    <string name="common_msg_invalid">无效</string>
+    <string name="common_msg_cancel">取消</string>
+    <string name="common_msg_ok">好的</string>
+    <string name="common_msg_yes">是</string>
+    <string name="common_msg_no">否</string>
+    <string name="common_msg_confirm">确认</string>
+    <string name="common_msg_save">保存</string>
+    <string name="common_msg_delete">删除</string>
+    <string name="common_msg_deleted">删除</string>
+    <string name="common_msg_no_data_found">没有数据</string>
+    <string name="common_msg_search_hint">查找...</string>
+    <string name="common_msg_warning">警告</string>
+    <string name="common_msg_error">错误</string>
+    <string name="common_msg_information">信息</string>
+
+
+    <string name="common_text_kilometers">公里</string>
+    <string name="common_text_meters">米</string>
+    <string name="common_text_order_number">订单号</string>
+
+    <string name="common_text_start_call">开始拜访</string>
+    <string name="common_text_end_call">结束拜访</string>
+    <string name="common_text_pause_duration">持续暂停</string>
+    <string name="common_text_last_pause">最后暂停</string>
+    <string name="common_text_visit_information">访问信息</string>
+    <string name="common_text_view_customer">预览客户</string>
+    <string name="common_text_change_picture">更改图片</string>
+    <string name="common_text_details">详细资料</string>
+    <string name="common_text_visited">已访问</string>
+    <string name="common_text_unvisit">未访问</string>
+    <string name="common_text_last_resume">最后恢复</string>
+    <string name="common_text_taking_order">下达订单</string>
+    <string name="common_text_sales_order">销售订单</string>
+    <string name="common_text_return_order">返回订单</string>
+    <string name="common_text_order">订单</string>
+    <string name="common_text_return">返回订单</string>
+    <string name="common_text_select_hint">选择</string>
+    <string name="common_text_item_already_add">已添加</string>
+
+    <!-- MASTER INVENTORY -->
+    <string name="inventory_reference">参考</string>
+    <string name="inventory_loading">加载</string>
+    <string name="inventory_unloading">卸载</string>
+    <string name="inventory_confirm_containing_item_save">你确定现在保存？</string>
+    <string name="inventory_msg_save_success">交易保存成功</string>
+    <string name="inventory_msg_save_fail">交易错误</string>
+    <string name="inventory_msg_no_items">没有项目</string>
+    <string name="inventory_msg_confirm_clear_items">清除项目</string>
+    <string name="inventory_text_qty">数量</string>
+
+    <string name="inventory_sort_by_name">名称排序</string>
+    <string name="inventory_sort_by_alias">简称排序</string>
+    <string name="inventory_sort_by_code">代码排序</string>
+    <string name="inventory_sort_by_smallest">按条装排序</string>
+    <string name="inventory_sort_by_largest">按箱排序</string>
+
+
+    <!-- END OF MASTER INVENTORY -->
+
+
+    <!-- TARGET -->
+    <string name="target_text_summary_product">目标总计产品</string>
+    <string name="target_text_summary_by_product_qty">产品目标（数量）</string>
+    <string name="target_text_summary_by_product_value">产品目标（金额）</string>
+    <string name="target_text_summary_by_call_ec_ipt">目标有效拜访数</string>
+
+    <string name="target_text_total_target_product_by_qty">目标数量产品总计</string>
+    <string name="target_text_total_target_product_by_value">目标金额产品总计</string>
+    <string name="target_text">目标</string>
+    <string name="target_transactions_text">交易</string>
+    <string name="target_achievement_text">达成</string>
+    <string name="target_balance_text">缺口</string>
+
+    <string name="target_call_text">目标拜访</string>
+    <string name="target_effective_call_text">目标有效拜访数</string>
+    <string name="target_effective_ipt">目标IPT</string>
+
+    <string name="target_achieve">实现</string>
+    <string name="target_under">下</string>
+    <string name="target_over">过度</string>
+
+    <!-- END OF TARGET -->
+
+
+    <!-- SUMMARY -->
+    <string name="summary_by_product_qty_text">产品小结（数量）</string>
+    <string name="summary_by_product_value_text">产品小结（金额）</string>
+    <string name="summary_by_customer_qty_text">数量小结（客户）</string>
+    <string name="summary_by_customer_value_text">金额小结（客户）</string>
+    <string name="summary_total">总计</string>
+
+    <string name="summary_total_call_plan">计划拜访总计</string>
+    <string name="summary_total_call">拜访总计</string>
+    <string name="summary_total_effective_call">有效拜访总计</string>
+    <string name="summary_total_un_call">全部召回</string>
+    <string name="summary_total_unplan">无效总计</string>
+    <string name="summary_total_call_unplan">拜访总计（无计划）</string>
+    <string name="summary_total_unplan_effective_call">无效拜访总计</string>
+    <string name="summary_total_product">产品总计</string>
+    <string name="summary_total_qty">数量总计</string>
+    <string name="summary_total_value">金额总计</string>
+    <!-- END OF SUMMARY -->
+
+
+    <!-- COMPETITOR -->
+    <string name="competitor_text">竞品</string>
+    <string name="competitor_text_activity">活动</string>
+    <string name="competitor_text_product">产品</string>
+    <string name="competitor_text_cost">费用</string>
+    <string name="competitor_text_times">时间</string>
+    <string name="competitor_text_notes">记录</string>
+    <string name="competitor_err_message_blank_competitor">所需的竞争对手\n</string>
+    <string name="competitor_err_message_blank_activity">要求活动\n</string>
+    <string name="competitor_err_message_blank_product">所需产品\n</string>
+    <string name="competitor_err_message_blank_cost">所需费用\n</string>
+    <string name="competitor_err_message_blank_times">所需时间\n</string>
+    <string name="competitor_err_message_blank_notes">需要注意\n</string>
+    <string name="competitor_save_ok">成功保存</string>
+    <string name="competitor_save_fail">保存失败</string>
+
+    <!-- END OF COMPETITOR -->
+
+
+
+    <string name="app_exit_confim">您确定要退出应用程序吗？</string>
+    <string name="app_load_data_confim">没有数据。你确定从服务器下载数据？</string>
+
+
+
+
+
+
+
+
+</resources>

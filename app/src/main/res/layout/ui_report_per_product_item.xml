@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notepad"
+            android:textColor="#040404"
+            android:typeface="monospace"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tQty"
+            android:layout_toStartOf="@+id/tQty"
+            android:paddingRight="5dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tQty"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="12.000000"
+            android:typeface="sans"
+            android:textSize="15dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDetail"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CRT :"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textViewCRT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CRT"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOX :"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textViewBOX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOX"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PCS :"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textViewPCS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PCS"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="KOSONG"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/tProductNumber" />
+
+
+
+
+</LinearLayout>

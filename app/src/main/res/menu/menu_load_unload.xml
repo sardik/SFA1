@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ksni.roots.ngsales.domain.CaptureSignature">
+
+    <item android:id="@+id/action_refresh" android:title="Refresh"
+        android:icon="@drawable/ic_sync"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/action_loading" android:title="Loading"
+        android:icon="@drawable/ic_unloading"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/action_unloading" android:title="Unloading"
+        android:icon="@drawable/ic_loading"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+
+    <group android:id="@+id/groupSort"
+        android:checkableBehavior="single">
+        <item android:id="@+id/menu_sort_by_name"
+            android:title="@string/inventory_sort_by_name" android:checked="true"/>
+        <item android:id="@+id/menu_sort_by_alias"
+            android:title="@string/inventory_sort_by_alias"/>
+        <item android:id="@+id/menu_sort_by_code"
+            android:title="@string/inventory_sort_by_code"/>
+        <item android:id="@+id/menu_sort_by_smallest"
+            android:title="@string/inventory_sort_by_smallest" android:checked="false"/>
+        <item android:id="@+id/menu_sort_by_largest"
+            android:title="@string/inventory_sort_by_largest" android:checked="false"/>
+    </group>
+
+</menu>

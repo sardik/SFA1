@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To start a visit click &apos;Call&apos; button below, the system will scan the QR code as the data required customer or options, for other reasons such as not exist or is damaged, these scans can be passed and if this rule has been in previous settings."
+                        android:id="@+id/tInfoCall"
+                        android:typeface="sans" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call"
+
+                    android:id="@+id/btnCall"
+                    android:background="@drawable/button_bg"
+                    android:textColor="#fff"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call_plan_pre_call_btn_text_taking_order"
+                    android:visibility="gone"
+                    android:id="@+id/btnViewOrder"
+                    android:background="@drawable/button_bg"
+                    android:textColor="#fff"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call_plan_pre_call_btn_text_return_order"
+                    android:id="@+id/btnReturOrder"
+                    android:background="@drawable/button_bg"
+                    android:textColor="#fff"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call_plan_pre_call_btn_text_skip_call"
+                    android:id="@+id/btnPause"
+                    android:background="@drawable/button_bg"
+                    android:textColor="#fff"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take Photo"
+                    android:id="@+id/btnPhoto"
+                    android:background="@drawable/button_bg"
+                    android:textColor="#fff"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call_plan_pre_call_btn_text_competitor"
+                    android:id="@+id/btnCompetit"
+                    android:background="@drawable/button_bg"
+                    android:textColor="#fff"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call_plan_pre_call_btn_text_end_call"
+                    android:visibility="gone"
+                    android:id="@+id/btnEndCall"
+                    android:background="@drawable/button_bg_red"
+                    android:textColor="#fff"
+                    android:typeface="sans" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/call_plan_pre_call_text_view_sales_notes"
+                        android:textStyle="italic|bold"
+                        android:id="@+id/tvSalesNotes"
+                        android:typeface="sans" />
+                </LinearLayout>
+            </TableRow>
+            <View
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="@android:color/darker_gray" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/call_plan_pre_call_text_view_customer_notes"
+                        android:textStyle="italic|bold"
+                        android:id="@+id/tvNotes"
+                        android:typeface="sans" />
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/tNotes"
+                        android:typeface="sans" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

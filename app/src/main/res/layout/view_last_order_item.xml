@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+
+
+        <TextView
+            android:id="@+id/tCustomerName"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:text="Test DOn"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp" />
+
+
+    <TextView
+        android:id="@+id/tCustomerNumber"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#22b24c" />
+
+    <TextView
+        android:id="@+id/tOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="10dp"
+        android:text="Mobile: "
+        android:textColor="#5d5d5d" />
+
+
+    <TextView
+        android:id="@+id/tTotal"
+        android:textAllCaps="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:typeface="sans"
+        android:text="XXX" />
+
+    <TextView
+        android:id="@+id/tOrderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:visibility="gone"
+        android:text="Mobile: "
+        android:textColor="@color/common_signin_btn_default_background"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

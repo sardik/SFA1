@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />-->
+
+    <EditText android:id="@+id/tSearchPlan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:visibility="gone"
+        android:background="@drawable/list_bg2"
+        android:drawableLeft="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:hint="Search...">
+    </EditText>
+    <ListView
+        android:id="@+id/lstViewLastOrder"
+        android:background="@drawable/list_bg"
+        android:splitMotionEvents="false"
+        android:choiceMode="singleChoice"
+        android:listSelector="#dddddd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <!--<LinearLayout         android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/list_empty"
+            android:text="No order found."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </LinearLayout>-->
+
+</LinearLayout>

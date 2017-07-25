@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:textColor="#000"
+        android:typeface="sans"
+        android:textSize="12dp"
+        android:text="Product ID"
+        android:paddingLeft="60dp"
+        android:id="@+id/tProductNumber" />
+
+    <TextView
+        android:id="@+id/tProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tProductNumber"
+        android:text="notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:paddingRight="25dp"
+        android:paddingLeft="60dp" />
+
+    <TextView
+        android:id="@+id/tUom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="UOM"
+        android:textColor="@color/text_color_uom"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/tAlias" />
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:src="@drawable/richeese" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tProductName"
+        android:id="@+id/tPrice"
+        android:typeface="sans"
+        android:textSize="12dp"
+        android:text="Price / UOM"
+        android:textColor="#FF0000"
+        android:paddingLeft="60dp" />
+
+    <!--
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/list_image"
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:src="@drawable/richeese"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#20a200"/>-->
+
+
+</RelativeLayout>

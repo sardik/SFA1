@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ksni.roots.ngsales.domain.CallPlan">
+
+
+    <item android:id="@+id/btnScan" android:title="Scan"
+        android:icon="@drawable/qrcode"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+
+    <item android:id="@+id/btnRefresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_sync"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/btnMap"
+        android:title="Map"
+        android:icon="@drawable/ic_map"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/btnAdd" android:title="Add"
+        android:icon="@drawable/tambah_white"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+
+
+
+</menu>

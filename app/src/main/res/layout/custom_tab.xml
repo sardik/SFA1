@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:id="@+id/ivTab" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvTab"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/sel_tab"
+        android:textSize="12dp"
+        />
+
+</LinearLayout>
+
+
+    <!--android:textColor="@drawable/sel_tab"-->
+
+    <!--android:textColor="@drawable/sel_tab_text"-->

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ksni.roots.ngsales.domain.CallPlan">
+
+    <!--<item android:id="@+id/btnStock" android:title="Last Order"
+        android:icon="@drawable/ic_stock"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/btnLastOrder" android:title="Last Order"
+        android:icon="@drawable/ic_last_order3"
+        android:orderInCategory="100" app:showAsAction="always" />
+        -->
+
+
+
+</menu>

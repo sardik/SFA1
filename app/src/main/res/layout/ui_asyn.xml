@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#EEEEEE" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSyncDocking"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+            <TextView
+                android:text="@string/sync_docking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"/>
+
+            <ImageView
+                android:background="@drawable/ic_expand_more_black_18dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressAsyn"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lstSync"
+            android:background="@drawable/list_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="#dddddd"
+            android:visibility="visible"
+            android:layout_weight="1"/>
+
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/expandableLayoutSyncDocking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ael_expanded="false"
+            app:ael_duration="500"
+            app:ael_interpolator="accelerate"
+            app:ael_orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:background="#E0E0E0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/sync"
+                    android:background="@drawable/button_shape_black"
+                    android:id="@+id/buttonSync"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:typeface="monospace"
+                    android:visibility="visible"
+                    android:layout_marginRight="5dp"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/docking"
+                    android:background="@drawable/button_shape_black"
+                    android:id="@+id/buttonDocking"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:typeface="monospace"
+                    android:visibility="visible"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/list_empty"
+            android:text="Tap refresh to start synchronous."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

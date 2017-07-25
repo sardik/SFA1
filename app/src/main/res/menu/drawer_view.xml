@@ -1,0 +1,99 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu0"
+            android:checked="true"
+            android:icon="@drawable/ic_att"
+            android:title="@string/drawer_menu_start" />
+
+    <item
+        android:id="@+id/menu1"
+        android:checked="false"
+        android:icon="@drawable/ic_call"
+        android:title="@string/drawer_menu_call_plan" />
+
+    <item
+        android:id="@+id/menu2"
+        android:checked="false"
+        android:icon="@drawable/ic_product"
+        android:title="PRODUCT" />
+
+    <item
+        android:id="@+id/menu3"
+        android:checked="false"
+        android:icon="@drawable/ic_customer"
+        android:title="@string/drawer_menu_customer" />
+
+    <item
+        android:id="@+id/menu11"
+        android:checked="false"
+        android:icon="@drawable/ic_inventory"
+        android:title="@string/drawer_menu_inventory" />
+
+
+    <item
+        android:id="@+id/menu4"
+        android:checked="false"
+        android:icon="@drawable/ic_target"
+        android:title="@string/drawer_menu_target" />
+
+    <item
+        android:id="@+id/menu5"
+        android:checked="false"
+        android:visible="false"
+        android:icon="@drawable/ic_competitor"
+        android:title="@string/drawer_menu_competitor" />
+
+    <item
+        android:id="@+id/menu6"
+        android:checked="false"
+        android:icon="@drawable/ic_report"
+        android:title="@string/drawer_menu_view_order" />
+
+    <item
+        android:id="@+id/menu8"
+        android:checked="false"
+        android:icon="@drawable/ic_summary"
+        android:title="@string/drawer_menu_summary" />
+
+    <item
+        android:id="@+id/menu7"
+        android:checked="false"
+        android:icon="@drawable/ic_sync"
+        android:title="@string/drawer_menu_synchronous" />
+
+
+    <item
+        android:id="@+id/menu10"
+        android:checked="false"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/drawer_menu_settings" />
+
+
+    <item
+        android:id="@+id/menu9"
+        android:checked="false"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/drawer_menu_logout" />
+
+
+
+
+    <!--
+
+            <item android:title="Sub items">
+                <menu>
+                    <item
+                        android:icon="@drawable/ic_one"
+                        android:title="Target" />
+                    <item
+                        android:icon="@drawable/ic_two"
+                        android:title="Competitor" />
+                </menu>
+            </item>
+            -->
+    </group>
+
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+<!--     android:background="?android:attr/activatedBackgroundIndicator"
+ -->
+    <TextView
+        android:id="@+id/tId"
+        android:textAllCaps="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="1" />
+
+
+    <TextView
+        android:id="@+id/tCustomerNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:visibility="gone"
+        android:textColor="#22b24c" />
+
+    <TextView
+        android:id="@+id/tCustomerAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:paddingBottom="2dip"
+        android:textColor="#22b24c" />
+
+    <TextView
+        android:id="@+id/tCustomerAlias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:visibility="gone"
+        android:text="Mobile: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="2010-01-01"
+        android:textColor="@color/common_signin_btn_default_background"
+        android:textStyle="bold" />
+
+</LinearLayout>

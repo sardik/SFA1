@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad notepad"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:paddingRight="25dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tProductName"
+        android:id="@+id/tPrice"
+        android:text="10000"
+        android:paddingLeft="60dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/tUom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="CRT"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/tProductNumber" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/tAlias" />
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:src="@drawable/richeese"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/tPrice"
+        android:layout_alignStart="@+id/tPrice" />
+
+<!--
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_image"
+        android:layout_width="55dip"
+        android:layout_height="55dip"
+        android:src="@drawable/richeese"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#20a200"/>-->
+
+
+</RelativeLayout>

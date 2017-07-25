@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ksni.roots.ngsales"
+    android:versionCode="2"
+    android:versionName="4.2.2">
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.ksni.roots.ngsales.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ksni.roots.ngsales.permission.MAPS_RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="S F A"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+
+        <!--<meta-data-->
+            <!--android:name="com.google.android.maps.v2.API_KEY"-->
+            <!--android:value="AIzaSyDoNsuObfYbuw9jxdiJaHlFGS38Lh_FYXU" />-->
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCsc404AlEXc1_jEXLI6eaLdC5-yHgUbkw" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:process=":remote" />
+
+        <service
+            android:name=".UpdateAPK"
+            android:exported="false" />
+        <service
+            android:name=".UpService"
+            android:exported="false" />
+
+        <receiver android:name=".BootstrapReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity
+            android:name=".domain.CallPlanMap"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            <service android:name=".domain.GPSTracker">
+        </service>
+        -->
+
+
+        <!--
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+        </intent-filter>
+        <meta-data android:name="android.app.searchable"
+            android:resource="@xml/searchable"/>
+        -->
+
+        <activity
+            android:name=".domain.SearchData"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".domain.AddCustomer"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.CaptureSignature"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.ProgramInfoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.Login"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".domain.ViewLastOrderActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.QueueActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <!--
+        <activity
+            android:name=".domain.Login"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        -->
+
+        <activity
+            android:name=".domain.Splash"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.ProductInput"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.ProductDataByBrand"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <!--<activity-->
+            <!--android:name=".domain.AddOrderDetail"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:label="AddOrderDetail"-->
+            <!--android:screenOrientation="portrait" />-->
+
+        <!--
+        <service android:name=".util.GPSNbti" >
+        </service>
+        -->
+
+        <service android:name=".ScheduleProcess" />
+        <service android:name=".EnerlifeWebRequest" />
+
+        <!--
+        android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+        <android:windowSoftInputMode="stateAlwaysVisible|stateHidden">
+
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+        -->
+
+        <activity
+            android:name=".domain.Competitor"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".domain.Information"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.CanvasLoadUnload"
+            android:configChanges="orientation"
+            android:label="Canvas Loading/Unloading"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".domain.CustomerInput"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".domain.CustomerNotes"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.PreCall"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_call_plan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.Call"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_call_plan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.Order"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_order"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.AddOrder"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="AddOrder"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".domain.ReportTarget"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Report Target"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.ReportSummaryByProduct"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Summary Report Today By Product"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.ReportSummaryByProductCustomer"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Summary Report Today By Product/Customer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".domain.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".domain.AddOrderDetail"></activity>
+    </application>
+
+</manifest>
